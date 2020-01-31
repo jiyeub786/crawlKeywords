@@ -14,7 +14,7 @@ base_dir = os.path.dirname( os.path.abspath( __file__ ) ) +"/files/"
 file_keyword = base_dir+"result_"+date +".txt"
 file_news = base_dir+"result_news_"+date +".txt"
 
-header_keyword = "target\tdate\ttime\trank\tkeyword\turls\n"
+header = "target\tdate\ttime\trank\tkeyword\turls\n"
 header_news = "target\tdate\ttime\trank\ttitle\tcontents\turls\n"
 
 
@@ -60,7 +60,7 @@ def setKeywordHeader():
     else:
         logger.info("Header Setting")
         f = open(file_keyword, mode='wt', encoding='UTF-8')
-        f.write(header_keyword)
+        f.write(header)
         f.close()
 
 def setNewsHeader():

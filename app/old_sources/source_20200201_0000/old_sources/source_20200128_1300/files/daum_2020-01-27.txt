@@ -1,0 +1,11 @@
+target	date	time	rank	keyword	urls
+02	2020-01-27	23:56:34	0	길	https://search.daum.net/search?w=tot&q=길
+02	2020-01-27	23:56:34	1	원종건	https://search.daum.net/search?w=tot&q=원종건
+02	2020-01-27	23:56:34	2	코비 브라이언트	https://search.daum.net/search?w=tot&q=코비 브라이언트
+02	2020-01-27	23:56:34	3	김홍신	https://search.daum.net/search?w=tot&q=김홍신
+02	2020-01-27	23:56:34	4	길 결혼	https://search.daum.net/search?w=tot&q=길 결혼
+02	2020-01-27	23:56:34	5	가디언즈 오브 갤럭시 2	https://search.daum.net/search?w=tot&q=가디언즈 오브 갤럭시 2
+02	2020-01-27	23:56:34	6	마이진	https://search.daum.net/search?w=tot&q=마이진
+02	2020-01-27	23:56:34	7	양준혁	https://search.daum.net/search?w=tot&q=양준혁
+02	2020-01-27	23:56:34	8	안혜상	https://search.daum.net/search?w=tot&q=안혜상
+02	2020-01-27	23:56:34	9	조수진 변호사	https://search.daum.net/search?w=tot&q=조수진 변호사

@@ -13507,476 +13507,329 @@
 [INFO|crawler.py:125] 2020-01-29 00:28:34,903 > write data - write num : 2
 [INFO|crawler.py:127] 2020-01-29 00:28:34,930 > succ make file
 [INFO|main.py:8] 2020-01-29 00:28:34,930 > end main()
-[INFO|main.py:5] 2020-01-29 00:37:32,190 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 00:37:32,191 > start main()
-[INFO|crawler.py:118] 2020-01-29 00:37:32,191 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 00:37:32,191 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 00:37:32,191 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 00:37:32,358 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 00:37:32,359 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 00:37:32,359 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 00:37:32,359 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 00:37:32,419 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 00:37:32,420 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 00:37:32,420 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 00:37:32,420 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 00:37:33,180 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 00:37:33,180 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 00:37:33,181 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 00:37:33,181 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 00:37:33,181 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 00:37:33,181 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 00:37:33,181 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 00:37:33,181 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 00:37:33,182 > succ make file
-[INFO|main.py:8] 2020-01-29 00:37:33,182 > end main()
-[INFO|main.py:5] 2020-01-29 00:53:02,376 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 00:53:02,377 > start main()
-[INFO|crawler.py:118] 2020-01-29 00:53:02,377 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 00:53:02,378 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 00:53:02,378 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 00:53:02,571 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 00:53:02,571 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 00:53:02,571 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 00:53:02,572 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 00:53:02,621 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 00:53:02,621 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 00:53:02,622 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 00:53:02,622 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 00:53:03,419 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 00:53:03,420 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 00:53:03,420 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 00:53:03,420 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 00:53:03,420 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 00:53:03,421 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 00:53:03,421 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 00:53:03,421 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 00:53:03,422 > succ make file
-[INFO|main.py:8] 2020-01-29 00:53:03,422 > end main()
-[INFO|main.py:5] 2020-01-29 00:56:11,239 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 00:56:11,270 > start main()
-[INFO|crawler.py:118] 2020-01-29 00:56:11,270 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 00:56:11,270 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 00:56:11,270 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 00:56:11,614 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 00:56:11,614 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 00:56:11,614 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 00:56:11,614 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 00:56:11,661 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 00:56:11,661 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 00:56:11,661 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 00:56:11,661 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 00:56:12,395 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 00:56:12,395 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 00:56:12,395 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 00:56:12,411 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 00:56:12,411 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 00:56:12,411 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 00:56:12,427 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 00:56:12,427 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 00:56:12,442 > succ make file
-[INFO|main.py:8] 2020-01-29 00:56:12,442 > end main()
-[INFO|main.py:5] 2020-01-29 02:02:19,842 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 02:02:19,877 > start main()
-[INFO|crawler.py:118] 2020-01-29 02:02:19,878 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 02:02:19,878 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 02:02:19,878 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 02:02:20,241 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 02:02:20,241 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 02:02:20,242 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 02:02:20,242 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 02:02:20,305 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 02:02:20,305 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 02:02:20,306 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 02:02:20,306 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 02:02:21,176 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 02:02:21,177 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 02:02:21,177 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 02:02:21,192 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 02:02:21,228 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 02:02:21,229 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 02:02:21,229 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 02:02:21,230 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 02:02:21,241 > succ make file
-[INFO|main.py:8] 2020-01-29 02:02:21,241 > end main()
-[INFO|main.py:5] 2020-01-29 22:17:51,788 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 22:17:51,788 > start main()
-[INFO|crawler.py:118] 2020-01-29 22:17:51,788 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 22:17:51,788 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 22:17:51,788 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 22:17:52,185 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 22:17:52,185 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 22:17:52,185 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 22:17:52,185 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 22:17:52,249 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 22:17:52,250 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 22:17:52,250 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 22:17:52,250 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 22:17:53,116 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 22:17:53,117 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 22:17:53,117 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 22:17:53,117 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 22:17:53,117 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 22:17:53,118 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 22:17:53,118 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 22:17:53,118 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 22:17:53,118 > succ make file
-[INFO|main.py:8] 2020-01-29 22:17:53,119 > end main()
-[INFO|main.py:5] 2020-01-29 22:18:02,091 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 22:18:02,091 > start main()
-[INFO|crawler.py:118] 2020-01-29 22:18:02,092 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 22:18:02,092 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 22:18:02,092 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 22:18:02,376 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 22:18:02,376 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 22:18:02,376 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 22:18:02,377 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 22:18:02,427 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 22:18:02,427 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 22:18:02,427 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 22:18:02,427 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 22:18:03,189 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 22:18:03,189 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 22:18:03,190 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 22:18:03,190 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 22:18:03,190 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 22:18:03,190 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 22:18:03,190 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 22:18:03,190 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 22:18:03,191 > succ make file
-[INFO|main.py:8] 2020-01-29 22:18:03,191 > end main()
-[INFO|main.py:5] 2020-01-29 23:18:23,374 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 23:18:23,374 > start main()
-[INFO|crawler.py:118] 2020-01-29 23:18:23,374 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 23:18:23,375 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 23:18:23,375 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 23:18:23,620 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 23:18:23,620 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 23:18:23,620 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 23:18:23,620 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 23:18:23,672 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 23:18:23,672 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 23:18:23,672 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 23:18:23,672 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 23:18:24,496 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 23:18:24,496 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 23:18:24,496 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 23:18:24,496 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 23:18:24,497 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 23:18:24,497 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 23:18:24,497 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 23:18:24,497 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 23:18:24,497 > succ make file
-[INFO|main.py:8] 2020-01-29 23:18:24,498 > end main()
-[INFO|main.py:5] 2020-01-29 23:55:42,700 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 23:55:42,700 > start main()
-[INFO|crawler.py:118] 2020-01-29 23:55:42,700 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 23:55:42,701 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 23:55:42,701 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 23:55:42,868 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 23:55:42,869 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 23:55:42,869 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 23:55:42,869 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 23:55:42,920 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 23:55:42,920 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 23:55:42,920 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 23:55:42,920 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 23:55:43,787 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 23:55:43,787 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 23:55:43,787 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 23:55:43,788 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 23:55:43,788 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 23:55:43,788 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 23:55:43,788 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 23:55:43,788 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 23:55:43,788 > succ make file
-[INFO|main.py:8] 2020-01-29 23:55:43,789 > end main()
-[INFO|main.py:5] 2020-01-29 23:58:01,935 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 23:58:01,935 > start main()
-[INFO|crawler.py:118] 2020-01-29 23:58:01,935 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 23:58:01,936 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 23:58:01,936 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 23:58:02,099 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 23:58:02,099 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 23:58:02,099 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 23:58:02,099 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 23:58:02,156 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 23:58:02,156 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 23:58:02,156 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 23:58:02,156 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 23:58:02,930 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 23:58:02,930 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 23:58:02,932 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 23:58:02,932 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 23:58:02,932 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 23:58:02,932 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 23:58:02,932 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 23:58:02,932 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 23:58:02,932 > succ make file
-[INFO|main.py:8] 2020-01-29 23:58:02,933 > end main()
-[INFO|main.py:5] 2020-01-29 23:59:32,979 > ----------main()----------
-[INFO|main.py:6] 2020-01-29 23:59:32,979 > start main()
-[INFO|crawler.py:118] 2020-01-29 23:59:32,979 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-29 23:59:32,979 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-29 23:59:32,979 > get Source Datas
-[INFO|crawler.py:89] 2020-01-29 23:59:33,140 > parsing Datas
-[INFO|crawler.py:94] 2020-01-29 23:59:33,140 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-29 23:59:33,141 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-29 23:59:33,141 > get Source Datas
-[INFO|crawler.py:69] 2020-01-29 23:59:33,186 > parsing Datas
-[INFO|crawler.py:75] 2020-01-29 23:59:33,187 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-29 23:59:33,187 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-29 23:59:33,187 > get Source Datas
-[INFO|crawler.py:105] 2020-01-29 23:59:33,942 > parsing Datas
-[INFO|crawler.py:111] 2020-01-29 23:59:33,943 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-29 23:59:33,943 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-29 23:59:33,943 > Header Already set 
-[INFO|crawler.py:122] 2020-01-29 23:59:33,943 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-29.txt
-[INFO|crawler.py:125] 2020-01-29 23:59:33,943 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-29 23:59:33,943 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-29 23:59:33,943 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-29 23:59:33,944 > succ make file
-[INFO|main.py:8] 2020-01-29 23:59:33,944 > end main()
-[INFO|main.py:5] 2020-01-30 00:00:01,757 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 00:00:01,757 > start main()
-[INFO|crawler.py:118] 2020-01-30 00:00:01,757 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 00:00:01,757 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 00:00:01,757 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 00:00:01,931 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 00:00:01,931 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 00:00:01,931 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 00:00:01,931 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 00:00:01,971 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 00:00:01,972 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 00:00:01,972 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 00:00:01,972 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 00:00:02,740 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 00:00:02,740 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 00:00:02,740 > ----------setHeader()----------
-[INFO|crawler.py:54] 2020-01-30 00:00:02,740 > Header Setting
-[INFO|crawler.py:122] 2020-01-30 00:00:02,741 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 00:00:02,741 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 00:00:02,741 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 00:00:02,741 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 00:00:02,742 > succ make file
-[INFO|main.py:8] 2020-01-30 00:00:02,742 > end main()
-[INFO|main.py:5] 2020-01-30 08:41:12,032 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 08:41:12,067 > start main()
-[INFO|crawler.py:118] 2020-01-30 08:41:12,067 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 08:41:12,068 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 08:41:12,068 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 08:41:12,360 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 08:41:12,360 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 08:41:12,360 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 08:41:12,360 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 08:41:12,430 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 08:41:12,431 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 08:41:12,431 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 08:41:12,431 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 08:41:13,140 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 08:41:13,141 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 08:41:13,141 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-30 08:41:13,153 > Header Already set 
-[INFO|crawler.py:122] 2020-01-30 08:41:13,153 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 08:41:13,153 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 08:41:13,153 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 08:41:13,154 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 08:41:13,163 > succ make file
-[INFO|main.py:8] 2020-01-30 08:41:13,163 > end main()
-[INFO|main.py:5] 2020-01-30 08:42:38,114 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 08:42:38,114 > start main()
-[INFO|crawler.py:118] 2020-01-30 08:42:38,115 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 08:42:38,115 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 08:42:38,115 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 08:42:38,286 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 08:42:38,287 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 08:42:38,287 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 08:42:38,287 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 08:42:38,352 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 08:42:38,353 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 08:42:38,353 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 08:42:38,353 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 08:42:39,195 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 08:42:39,196 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 08:42:39,196 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-30 08:42:39,196 > Header Already set 
-[INFO|crawler.py:122] 2020-01-30 08:42:39,197 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 08:42:39,197 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 08:42:39,197 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 08:42:39,197 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 08:42:39,197 > succ make file
-[INFO|main.py:8] 2020-01-30 08:42:39,198 > end main()
-[INFO|main.py:5] 2020-01-30 08:42:49,222 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 08:42:49,222 > start main()
-[INFO|crawler.py:118] 2020-01-30 08:42:49,222 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 08:42:49,223 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 08:42:49,223 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 08:42:49,381 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 08:42:49,381 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 08:42:49,381 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 08:42:49,381 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 08:42:49,418 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 08:42:49,418 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 08:42:49,418 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 08:42:49,418 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 08:42:50,171 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 08:42:50,172 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 08:42:50,172 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-30 08:42:50,172 > Header Already set 
-[INFO|crawler.py:122] 2020-01-30 08:42:50,172 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 08:42:50,173 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 08:42:50,173 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 08:42:50,173 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 08:42:50,173 > succ make file
-[INFO|main.py:8] 2020-01-30 08:42:50,174 > end main()
-[INFO|main.py:5] 2020-01-30 09:00:00,848 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 09:00:00,849 > start main()
-[INFO|crawler.py:118] 2020-01-30 09:00:00,849 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 09:00:00,849 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 09:00:00,849 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 09:00:01,024 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 09:00:01,024 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 09:00:01,024 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 09:00:01,024 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 09:00:01,073 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 09:00:01,073 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 09:00:01,073 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 09:00:01,073 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 09:00:01,781 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 09:00:01,781 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 09:00:01,782 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-30 09:00:01,782 > Header Already set 
-[INFO|crawler.py:122] 2020-01-30 09:00:01,782 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 09:00:01,782 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 09:00:01,782 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 09:00:01,782 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 09:00:01,783 > succ make file
-[INFO|main.py:8] 2020-01-30 09:00:01,783 > end main()
-[INFO|main.py:5] 2020-01-30 19:09:41,915 > ----------main()----------
-[INFO|main.py:6] 2020-01-30 19:09:41,935 > start main()
-[INFO|crawler.py:118] 2020-01-30 19:09:41,935 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-30 19:09:41,935 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-30 19:09:41,935 > get Source Datas
-[INFO|crawler.py:89] 2020-01-30 19:09:42,346 > parsing Datas
-[INFO|crawler.py:94] 2020-01-30 19:09:42,346 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-30 19:09:42,346 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-30 19:09:42,346 > get Source Datas
-[INFO|crawler.py:69] 2020-01-30 19:09:42,399 > parsing Datas
-[INFO|crawler.py:75] 2020-01-30 19:09:42,399 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-30 19:09:42,399 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-30 19:09:42,400 > get Source Datas
-[INFO|crawler.py:105] 2020-01-30 19:09:43,392 > parsing Datas
-[INFO|crawler.py:111] 2020-01-30 19:09:43,392 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-30 19:09:43,393 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-01-30 19:09:43,393 > Header Already set 
-[INFO|crawler.py:122] 2020-01-30 19:09:43,393 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-30.txt
-[INFO|crawler.py:125] 2020-01-30 19:09:43,393 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-30 19:09:43,393 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-30 19:09:43,394 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-30 19:09:43,404 > succ make file
-[INFO|main.py:8] 2020-01-30 19:09:43,405 > end main()
-[INFO|main.py:5] 2020-01-31 09:17:28,756 > ----------main()----------
-[INFO|main.py:6] 2020-01-31 09:17:28,779 > start main()
-[INFO|crawler.py:118] 2020-01-31 09:17:28,780 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-01-31 09:17:28,780 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-01-31 09:17:28,780 > get Source Datas
-[INFO|crawler.py:89] 2020-01-31 09:17:29,049 > parsing Datas
-[INFO|crawler.py:94] 2020-01-31 09:17:29,049 > succ pasrsing
-[INFO|crawler.py:63] 2020-01-31 09:17:29,049 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-01-31 09:17:29,049 > get Source Datas
-[INFO|crawler.py:69] 2020-01-31 09:17:29,108 > parsing Datas
-[INFO|crawler.py:75] 2020-01-31 09:17:29,109 > succ pasrsing
-[INFO|crawler.py:98] 2020-01-31 09:17:29,109 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-01-31 09:17:29,109 > get Source Datas
-[INFO|crawler.py:105] 2020-01-31 09:17:29,927 > parsing Datas
-[INFO|crawler.py:111] 2020-01-31 09:17:29,928 > succ pasrsing
-[INFO|crawler.py:49] 2020-01-31 09:17:29,928 > ----------setHeader()----------
-[INFO|crawler.py:54] 2020-01-31 09:17:29,928 > Header Setting
-[INFO|crawler.py:122] 2020-01-31 09:17:29,940 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-01-31.txt
-[INFO|crawler.py:125] 2020-01-31 09:17:29,940 > write data - write num : 0
-[INFO|crawler.py:125] 2020-01-31 09:17:29,940 > write data - write num : 1
-[INFO|crawler.py:125] 2020-01-31 09:17:29,941 > write data - write num : 2
-[INFO|crawler.py:127] 2020-01-31 09:17:29,941 > succ make file
-[INFO|main.py:8] 2020-01-31 09:17:29,941 > end main()
-[INFO|main.py:5] 2020-02-01 00:11:27,148 > ----------main()----------
-[INFO|main.py:6] 2020-02-01 00:11:27,179 > start main()
-[INFO|crawler.py:118] 2020-02-01 00:11:27,179 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-02-01 00:11:27,179 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-02-01 00:11:27,179 > get Source Datas
-[INFO|crawler.py:89] 2020-02-01 00:11:27,873 > parsing Datas
-[INFO|crawler.py:94] 2020-02-01 00:11:27,873 > succ pasrsing
-[INFO|crawler.py:63] 2020-02-01 00:11:27,873 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-02-01 00:11:27,873 > get Source Datas
-[INFO|crawler.py:69] 2020-02-01 00:11:27,941 > parsing Datas
-[INFO|crawler.py:75] 2020-02-01 00:11:27,941 > succ pasrsing
-[INFO|crawler.py:98] 2020-02-01 00:11:27,941 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-02-01 00:11:27,941 > get Source Datas
-[INFO|crawler.py:105] 2020-02-01 00:11:28,728 > parsing Datas
-[INFO|crawler.py:111] 2020-02-01 00:11:28,729 > succ pasrsing
-[INFO|crawler.py:49] 2020-02-01 00:11:28,729 > ----------setHeader()----------
-[INFO|crawler.py:54] 2020-02-01 00:11:28,729 > Header Setting
-[INFO|crawler.py:122] 2020-02-01 00:11:28,729 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-01.txt
-[INFO|crawler.py:125] 2020-02-01 00:11:28,730 > write data - write num : 0
-[INFO|crawler.py:125] 2020-02-01 00:11:28,730 > write data - write num : 1
-[INFO|crawler.py:125] 2020-02-01 00:11:28,730 > write data - write num : 2
-[INFO|crawler.py:127] 2020-02-01 00:11:28,738 > succ make file
-[INFO|main.py:8] 2020-02-01 00:11:28,738 > end main()
-[INFO|main.py:5] 2020-02-01 00:17:12,963 > ----------main()----------
-[INFO|main.py:6] 2020-02-01 00:17:12,971 > start main()
-[INFO|crawler.py:118] 2020-02-01 00:17:12,971 > ----------getResultFile()----------
-[INFO|crawler.py:80] 2020-02-01 00:17:12,971 > ----------getDaum()----------
-[INFO|crawler.py:81] 2020-02-01 00:17:12,971 > get Source Datas
-[INFO|crawler.py:89] 2020-02-01 00:17:13,249 > parsing Datas
-[INFO|crawler.py:94] 2020-02-01 00:17:13,250 > succ pasrsing
-[INFO|crawler.py:63] 2020-02-01 00:17:13,250 > ----------getNaver()----------
-[INFO|crawler.py:64] 2020-02-01 00:17:13,250 > get Source Datas
-[INFO|crawler.py:69] 2020-02-01 00:17:13,312 > parsing Datas
-[INFO|crawler.py:75] 2020-02-01 00:17:13,313 > succ pasrsing
-[INFO|crawler.py:98] 2020-02-01 00:17:13,313 > ----------getYoutube()----------
-[INFO|crawler.py:100] 2020-02-01 00:17:13,313 > get Source Datas
-[INFO|crawler.py:105] 2020-02-01 00:17:14,093 > parsing Datas
-[INFO|crawler.py:111] 2020-02-01 00:17:14,094 > succ pasrsing
-[INFO|crawler.py:49] 2020-02-01 00:17:14,094 > ----------setHeader()----------
-[INFO|crawler.py:51] 2020-02-01 00:17:14,094 > Header Already set 
-[INFO|crawler.py:122] 2020-02-01 00:17:14,094 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-01.txt
-[INFO|crawler.py:125] 2020-02-01 00:17:14,094 > write data - write num : 0
-[INFO|crawler.py:125] 2020-02-01 00:17:14,095 > write data - write num : 1
-[INFO|crawler.py:125] 2020-02-01 00:17:14,095 > write data - write num : 2
-[INFO|crawler.py:127] 2020-02-01 00:17:14,095 > succ make file
-[INFO|main.py:8] 2020-02-01 00:17:14,095 > end main()
-[INFO|main.py:5] 2020-02-01 00:17:47,554 > ----------main()----------
-[INFO|main.py:6] 2020-02-01 00:17:47,554 > start main()
-[INFO|main.py:5] 2020-02-01 00:18:41,556 > ----------main()----------
-[INFO|main.py:6] 2020-02-01 00:18:41,556 > start main()
-[INFO|main.py:5] 2020-02-01 00:19:18,781 > ----------main()----------
-[INFO|main.py:6] 2020-02-01 00:19:18,781 > start main()
-[INFO|crawler.py:136] 2020-02-01 00:19:18,781 > ----------getResultKeywordFile()----------
-[INFO|crawler.py:98] 2020-02-01 00:19:18,781 > ----------getDaumKeyword()----------
-[INFO|crawler.py:99] 2020-02-01 00:19:18,781 > get Source Datas
-[INFO|crawler.py:107] 2020-02-01 00:19:19,056 > parsing Datas
-[INFO|crawler.py:112] 2020-02-01 00:19:19,057 > succ pasrsing
-[INFO|crawler.py:81] 2020-02-01 00:19:19,057 > ----------getNaverKeyword()----------
-[INFO|crawler.py:82] 2020-02-01 00:19:19,057 > get Source Datas
-[INFO|crawler.py:87] 2020-02-01 00:19:19,119 > parsing Datas
-[INFO|crawler.py:93] 2020-02-01 00:19:19,119 > succ pasrsing
-[INFO|crawler.py:116] 2020-02-01 00:19:19,119 > ----------getYoutubeKeyword()----------
-[INFO|crawler.py:118] 2020-02-01 00:19:19,120 > get Source Datas
-[INFO|crawler.py:123] 2020-02-01 00:19:19,996 > parsing Datas
-[INFO|crawler.py:129] 2020-02-01 00:19:19,996 > succ pasrsing
-[INFO|crawler.py:56] 2020-02-01 00:19:19,996 > ----------setKeywordHeader()----------
-[INFO|crawler.py:58] 2020-02-01 00:19:19,997 > Header Already set 
-[INFO|crawler.py:140] 2020-02-01 00:19:19,997 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-01.txt
-[INFO|crawler.py:143] 2020-02-01 00:19:19,997 > write data - write num : 0
-[INFO|crawler.py:143] 2020-02-01 00:19:19,997 > write data - write num : 1
-[INFO|crawler.py:143] 2020-02-01 00:19:19,997 > write data - write num : 2
-[INFO|crawler.py:145] 2020-02-01 00:19:19,997 > succ make file
-[INFO|crawler.py:149] 2020-02-01 00:19:19,998 > ----------getResultNewsFile()----------
-[INFO|crawler.py:166] 2020-02-01 00:19:19,998 > ----------getDaumNews()----------
-[INFO|crawler.py:56] 2020-02-01 00:19:20,318 > ----------setKeywordHeader()----------
-[INFO|crawler.py:58] 2020-02-01 00:19:20,319 > Header Already set 
-[INFO|crawler.py:67] 2020-02-01 00:19:20,319 > ----------setNewsHeader()----------
-[INFO|crawler.py:72] 2020-02-01 00:19:20,319 > Header Setting
-[INFO|crawler.py:155] 2020-02-01 00:19:20,320 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-01.txt
-[INFO|crawler.py:159] 2020-02-01 00:19:20,320 > write data - write num : 0
-[INFO|crawler.py:161] 2020-02-01 00:19:20,320 > succ make file
-[INFO|main.py:9] 2020-02-01 00:19:20,321 > end main()
+[INFO|main.py:5] 2020-01-29 09:31:14,759 > ----------main()----------
+[INFO|main.py:6] 2020-01-29 09:31:14,759 > start main()
+[INFO|crawler.py:118] 2020-01-29 09:31:14,759 > ----------getResultFile()----------
+[INFO|crawler.py:80] 2020-01-29 09:31:14,759 > ----------getDaum()----------
+[INFO|crawler.py:81] 2020-01-29 09:31:14,759 > get Source Datas
+[INFO|crawler.py:89] 2020-01-29 09:31:15,053 > parsing Datas
+[INFO|crawler.py:94] 2020-01-29 09:31:15,054 > succ pasrsing
+[INFO|crawler.py:63] 2020-01-29 09:31:15,054 > ----------getNaver()----------
+[INFO|crawler.py:64] 2020-01-29 09:31:15,054 > get Source Datas
+[INFO|crawler.py:69] 2020-01-29 09:31:15,182 > parsing Datas
+[INFO|crawler.py:75] 2020-01-29 09:31:15,182 > succ pasrsing
+[INFO|crawler.py:98] 2020-01-29 09:31:15,182 > ----------getYoutube()----------
+[INFO|crawler.py:100] 2020-01-29 09:31:15,182 > get Source Datas
+[INFO|crawler.py:105] 2020-01-29 09:31:16,035 > parsing Datas
+[INFO|crawler.py:111] 2020-01-29 09:31:16,036 > succ pasrsing
+[INFO|crawler.py:49] 2020-01-29 09:31:16,036 > ----------setHeader()----------
+[INFO|crawler.py:51] 2020-01-29 09:31:16,036 > Header Already set 
+[INFO|crawler.py:122] 2020-01-29 09:31:16,036 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-29.txt
+[INFO|crawler.py:125] 2020-01-29 09:31:16,037 > write data - write num : 0
+[INFO|crawler.py:125] 2020-01-29 09:31:16,038 > write data - write num : 1
+[INFO|crawler.py:125] 2020-01-29 09:31:16,038 > write data - write num : 2
+[INFO|crawler.py:127] 2020-01-29 09:31:16,038 > succ make file
+[INFO|main.py:8] 2020-01-29 09:31:16,039 > end main()
+[INFO|main.py:5] 2020-01-29 17:53:42,968 > ----------main()----------
+[INFO|main.py:6] 2020-01-29 17:53:42,969 > start main()
+[INFO|crawler.py:118] 2020-01-29 17:53:42,969 > ----------getResultFile()----------
+[INFO|crawler.py:80] 2020-01-29 17:53:42,969 > ----------getDaum()----------
+[INFO|crawler.py:81] 2020-01-29 17:53:42,969 > get Source Datas
+[INFO|crawler.py:89] 2020-01-29 17:53:43,243 > parsing Datas
+[INFO|crawler.py:94] 2020-01-29 17:53:43,244 > succ pasrsing
+[INFO|crawler.py:63] 2020-01-29 17:53:43,244 > ----------getNaver()----------
+[INFO|crawler.py:64] 2020-01-29 17:53:43,244 > get Source Datas
+[INFO|crawler.py:69] 2020-01-29 17:53:43,862 > parsing Datas
+[INFO|crawler.py:75] 2020-01-29 17:53:43,862 > succ pasrsing
+[INFO|crawler.py:98] 2020-01-29 17:53:43,862 > ----------getYoutube()----------
+[INFO|crawler.py:100] 2020-01-29 17:53:43,863 > get Source Datas
+[INFO|crawler.py:105] 2020-01-29 17:53:44,666 > parsing Datas
+[INFO|crawler.py:111] 2020-01-29 17:53:44,667 > succ pasrsing
+[INFO|crawler.py:49] 2020-01-29 17:53:44,667 > ----------setHeader()----------
+[INFO|crawler.py:51] 2020-01-29 17:53:44,668 > Header Already set 
+[INFO|crawler.py:122] 2020-01-29 17:53:44,668 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-29.txt
+[INFO|crawler.py:125] 2020-01-29 17:53:44,668 > write data - write num : 0
+[INFO|crawler.py:125] 2020-01-29 17:53:44,668 > write data - write num : 1
+[INFO|crawler.py:125] 2020-01-29 17:53:44,668 > write data - write num : 2
+[INFO|crawler.py:127] 2020-01-29 17:53:44,669 > succ make file
+[INFO|main.py:8] 2020-01-29 17:53:44,669 > end main()
+[INFO|tt.py:7] 2020-01-30 16:34:50,478 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:34:50,489 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:39:47,225 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:39:47,225 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:39:57,039 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:39:57,040 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:40:42,067 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:40:42,067 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:40:48,325 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:40:48,325 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:41:09,204 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:41:09,204 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:41:23,569 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:41:23,569 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:43:12,074 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:43:12,074 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:44:22,834 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:44:22,834 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:44:28,516 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:44:28,517 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:47:26,765 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:47:26,766 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:47:37,469 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:47:37,469 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:48:28,588 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:48:28,588 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:52:22,066 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:52:22,066 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:52:46,884 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:52:46,884 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:53:12,397 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:53:12,397 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 16:54:20,230 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 16:54:20,231 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:11:09,820 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:11:09,820 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:11:15,939 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:11:15,939 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:11:48,344 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:11:48,345 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:12:15,933 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:12:15,933 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:12:25,649 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:12:25,650 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:12:35,924 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:12:35,924 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:12:45,778 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:12:45,779 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:13:01,382 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:13:01,382 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:13:11,423 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:13:11,424 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:13:14,954 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:13:14,954 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:13:45,909 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:13:45,910 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:13:56,744 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:13:56,744 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:15:56,165 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:15:56,165 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:16:03,601 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:16:03,601 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:17:17,286 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:17:17,286 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:17:48,798 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:17:48,798 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:18:22,542 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:18:22,543 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:18:35,032 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:18:35,032 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:18:40,476 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:18:40,476 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:19:10,702 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:19:10,702 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:19:18,848 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:19:18,848 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:19:58,929 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:19:58,930 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:21:44,111 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:21:44,111 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:21:48,830 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:21:48,831 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:21:55,383 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:21:55,383 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:22:12,801 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:22:12,801 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:22:22,841 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:22:22,841 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:23:26,802 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:23:26,802 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:23:36,528 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:23:36,528 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:26:17,378 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:26:17,379 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:26:32,369 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:26:32,369 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:27:39,971 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:27:39,972 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:27:49,299 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:27:49,299 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:27:57,564 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:27:57,565 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:28:30,641 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:28:30,642 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:28:40,050 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:28:40,051 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:29:03,523 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:29:03,524 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:29:15,752 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:29:15,752 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:29:26,130 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:29:26,131 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:29:31,832 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:29:31,832 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:30:41,282 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:30:41,282 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:31:11,449 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:31:11,450 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:31:59,566 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:31:59,566 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:32:04,929 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:32:04,929 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:32:24,018 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:32:24,019 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:35:16,727 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:35:16,728 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:35:31,547 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:35:31,547 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:36:16,926 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:36:16,926 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:36:21,361 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:36:21,362 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:36:28,337 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:36:28,337 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:36:44,499 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:36:44,499 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:36:48,205 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:36:48,206 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:38:47,926 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:38:47,927 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:38:53,801 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:38:53,801 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:41:31,919 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:41:31,920 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:41:51,265 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:41:51,265 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:42:24,732 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:42:24,733 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:43:23,520 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:43:23,520 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:43:44,218 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:43:44,218 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:43:50,642 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:43:50,643 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:58:23,241 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:58:23,242 > get Source Datas
+[INFO|tt.py:7] 2020-01-30 17:58:30,570 > ----------getYoutube()----------
+[INFO|tt.py:9] 2020-01-30 17:58:30,570 > get Source Datas
+[INFO|tt.py:20] 2020-01-30 18:03:56,772 > ----------getYoutube()----------
+[INFO|tt.py:22] 2020-01-30 18:03:56,772 > get Source Datas
+[INFO|tt.py:20] 2020-01-30 18:04:03,272 > ----------getYoutube()----------
+[INFO|tt.py:22] 2020-01-30 18:04:03,272 > get Source Datas
+[INFO|tt.py:21] 2020-01-30 18:04:43,342 > ----------getYoutube()----------
+[INFO|tt.py:23] 2020-01-30 18:04:43,342 > get Source Datas
+[INFO|tt.py:21] 2020-01-30 18:06:04,319 > ----------getYoutube()----------
+[INFO|tt.py:23] 2020-01-30 18:06:04,320 > get Source Datas
+[INFO|tt.py:24] 2020-01-30 18:06:24,837 > ----------getYoutube()----------
+[INFO|tt.py:26] 2020-01-30 18:06:24,837 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:06:57,785 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:06:57,785 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:07:24,953 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:07:24,954 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:07:46,695 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:07:46,695 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:07:58,473 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:07:58,474 > get Source Datas
+[INFO|tt.py:26] 2020-01-30 18:08:15,696 > ----------getYoutube()----------
+[INFO|tt.py:28] 2020-01-30 18:08:15,696 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:08:27,049 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:08:27,049 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:08:31,279 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:08:31,279 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:08:37,418 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:08:37,418 > get Source Datas
+[INFO|tt.py:25] 2020-01-30 18:08:42,797 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-30 18:08:42,798 > get Source Datas
+[INFO|tt.py:25] 2020-01-31 17:18:46,731 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-31 17:18:46,779 > get Source Datas
+[INFO|tt.py:25] 2020-01-31 17:19:27,902 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-31 17:19:27,902 > get Source Datas
+[INFO|tt.py:25] 2020-01-31 17:19:45,868 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-31 17:19:45,868 > get Source Datas
+[INFO|tt.py:25] 2020-01-31 17:20:17,827 > ----------getYoutube()----------
+[INFO|tt.py:27] 2020-01-31 17:20:17,827 > get Source Datas
+[INFO|main.py:5] 2020-01-31 18:42:22,860 > ----------main()----------
+[INFO|main.py:6] 2020-01-31 18:42:22,860 > start main()
+[INFO|crawler.py:134] 2020-01-31 18:42:22,860 > ----------getResultFile()----------
+[INFO|crawler.py:96] 2020-01-31 18:42:22,860 > ----------getDaum()----------
+[INFO|crawler.py:97] 2020-01-31 18:42:22,861 > get Source Datas
+[INFO|crawler.py:105] 2020-01-31 18:42:23,121 > parsing Datas
+[INFO|crawler.py:110] 2020-01-31 18:42:23,121 > succ pasrsing
+[INFO|crawler.py:79] 2020-01-31 18:42:23,121 > ----------getNaver()----------
+[INFO|crawler.py:80] 2020-01-31 18:42:23,121 > get Source Datas
+[INFO|crawler.py:85] 2020-01-31 18:42:23,815 > parsing Datas
+[INFO|crawler.py:91] 2020-01-31 18:42:23,815 > succ pasrsing
+[INFO|crawler.py:114] 2020-01-31 18:42:23,815 > ----------getYoutube()----------
+[INFO|crawler.py:116] 2020-01-31 18:42:23,816 > get Source Datas
+[INFO|crawler.py:121] 2020-01-31 18:42:24,657 > parsing Datas
+[INFO|crawler.py:127] 2020-01-31 18:42:24,657 > succ pasrsing
+[INFO|crawler.py:56] 2020-01-31 18:42:24,658 > ----------setHeader()----------
+[INFO|crawler.py:61] 2020-01-31 18:42:24,658 > Header Setting
+[INFO|crawler.py:70] 2020-01-31 18:42:24,659 > Header Setting
+[INFO|crawler.py:138] 2020-01-31 18:42:24,660 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-31.txt
+[INFO|crawler.py:141] 2020-01-31 18:42:24,661 > write data - write num : 0
+[INFO|crawler.py:141] 2020-01-31 18:42:24,661 > write data - write num : 1
+[INFO|crawler.py:141] 2020-01-31 18:42:24,661 > write data - write num : 2
+[INFO|crawler.py:143] 2020-01-31 18:42:24,662 > succ make file
+[INFO|main.py:8] 2020-01-31 18:42:24,662 > end main()
+[INFO|main.py:5] 2020-01-31 18:43:51,916 > ----------main()----------
+[INFO|main.py:6] 2020-01-31 18:43:51,917 > start main()
+[INFO|crawler.py:134] 2020-01-31 18:43:51,917 > ----------getResultFile()----------
+[INFO|crawler.py:96] 2020-01-31 18:43:51,917 > ----------getDaum()----------
+[INFO|crawler.py:97] 2020-01-31 18:43:51,917 > get Source Datas
+[INFO|crawler.py:105] 2020-01-31 18:43:52,139 > parsing Datas
+[INFO|crawler.py:110] 2020-01-31 18:43:52,140 > succ pasrsing
+[INFO|crawler.py:79] 2020-01-31 18:43:52,140 > ----------getNaver()----------
+[INFO|crawler.py:80] 2020-01-31 18:43:52,140 > get Source Datas
+[INFO|crawler.py:85] 2020-01-31 18:43:52,713 > parsing Datas
+[INFO|crawler.py:91] 2020-01-31 18:43:52,713 > succ pasrsing
+[INFO|crawler.py:114] 2020-01-31 18:43:52,714 > ----------getYoutube()----------
+[INFO|crawler.py:116] 2020-01-31 18:43:52,714 > get Source Datas
+[INFO|crawler.py:121] 2020-01-31 18:43:53,507 > parsing Datas
+[INFO|crawler.py:127] 2020-01-31 18:43:53,507 > succ pasrsing
+[INFO|crawler.py:56] 2020-01-31 18:43:53,508 > ----------setHeader()----------
+[INFO|crawler.py:58] 2020-01-31 18:43:53,508 > Header Already set 
+[INFO|crawler.py:70] 2020-01-31 18:43:53,509 > Header Setting
+[INFO|crawler.py:138] 2020-01-31 18:43:53,510 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-31.txt
+[INFO|crawler.py:141] 2020-01-31 18:43:53,510 > write data - write num : 0
+[INFO|crawler.py:141] 2020-01-31 18:43:53,510 > write data - write num : 1
+[INFO|crawler.py:141] 2020-01-31 18:43:53,510 > write data - write num : 2
+[INFO|crawler.py:143] 2020-01-31 18:43:53,511 > succ make file
+[INFO|crawler.py:149] 2020-01-31 18:43:53,511 > ----------getResultFile()----------
+[INFO|crawler.py:56] 2020-01-31 18:43:53,780 > ----------setHeader()----------
+[INFO|crawler.py:58] 2020-01-31 18:43:53,781 > Header Already set 
+[INFO|crawler.py:67] 2020-01-31 18:43:53,781 > Header Already set 
+[INFO|crawler.py:153] 2020-01-31 18:43:53,781 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-31.txt
+[INFO|crawler.py:156] 2020-01-31 18:43:53,782 > write data - write num : 0
+[INFO|crawler.py:158] 2020-01-31 18:43:53,783 > succ make file
+[INFO|main.py:9] 2020-01-31 18:43:53,783 > end main()
+[INFO|main.py:5] 2020-01-31 18:44:18,541 > ----------main()----------
+[INFO|main.py:6] 2020-01-31 18:44:18,541 > start main()
+[INFO|crawler.py:134] 2020-01-31 18:44:18,541 > ----------getResultFile()----------
+[INFO|crawler.py:96] 2020-01-31 18:44:18,541 > ----------getDaum()----------
+[INFO|crawler.py:97] 2020-01-31 18:44:18,541 > get Source Datas
+[INFO|crawler.py:105] 2020-01-31 18:44:18,753 > parsing Datas
+[INFO|crawler.py:110] 2020-01-31 18:44:18,753 > succ pasrsing
+[INFO|crawler.py:79] 2020-01-31 18:44:18,753 > ----------getNaver()----------
+[INFO|crawler.py:80] 2020-01-31 18:44:18,754 > get Source Datas
+[INFO|crawler.py:85] 2020-01-31 18:44:19,536 > parsing Datas
+[INFO|crawler.py:91] 2020-01-31 18:44:19,537 > succ pasrsing
+[INFO|crawler.py:114] 2020-01-31 18:44:19,537 > ----------getYoutube()----------
+[INFO|crawler.py:116] 2020-01-31 18:44:19,537 > get Source Datas
+[INFO|crawler.py:121] 2020-01-31 18:44:20,390 > parsing Datas
+[INFO|crawler.py:127] 2020-01-31 18:44:20,391 > succ pasrsing
+[INFO|crawler.py:56] 2020-01-31 18:44:20,391 > ----------setHeader()----------
+[INFO|crawler.py:58] 2020-01-31 18:44:20,392 > Header Already set 
+[INFO|crawler.py:67] 2020-01-31 18:44:20,392 > Header Already set 
+[INFO|crawler.py:138] 2020-01-31 18:44:20,392 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-31.txt
+[INFO|crawler.py:141] 2020-01-31 18:44:20,392 > write data - write num : 0
+[INFO|crawler.py:141] 2020-01-31 18:44:20,392 > write data - write num : 1
+[INFO|crawler.py:141] 2020-01-31 18:44:20,392 > write data - write num : 2
+[INFO|crawler.py:143] 2020-01-31 18:44:20,393 > succ make file
+[INFO|crawler.py:149] 2020-01-31 18:44:20,393 > ----------getResultFile()----------
+[INFO|crawler.py:56] 2020-01-31 18:44:20,625 > ----------setHeader()----------
+[INFO|crawler.py:58] 2020-01-31 18:44:20,625 > Header Already set 
+[INFO|crawler.py:67] 2020-01-31 18:44:20,625 > Header Already set 
+[INFO|crawler.py:153] 2020-01-31 18:44:20,626 > make file - file path : D:\python\python_project\crawlKeywords-master\app/files/result_2020-01-31.txt
+[INFO|crawler.py:156] 2020-01-31 18:44:20,626 > write data - write num : 0
+[INFO|crawler.py:158] 2020-01-31 18:44:20,626 > succ make file
+[INFO|main.py:9] 2020-01-31 18:44:20,627 > end main()
