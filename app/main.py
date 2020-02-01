@@ -6,8 +6,12 @@ def main():
     logger.info("start main()")
     cw.getResultKeywordFile()
     cw.getResultNewsFile()
+
     logger.info("end main()")
+
 
 if __name__ == "__main__":
     main()
+
+
 

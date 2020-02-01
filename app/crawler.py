@@ -186,3 +186,4 @@ def getDaumNews():
         logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code[3], date, time, str(i + 1).zfill(2), titles[i].split('\t')[0] , descs[i], titles[i].split('\t')[1]))
 
     return datas
+
