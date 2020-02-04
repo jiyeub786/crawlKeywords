@@ -14176,3 +14176,268 @@
 [INFO|mkHtml.py:5] 2020-02-01 22:27:30,207 > ----------getHtml()----------
 [INFO|mkHtml.py:5] 2020-02-01 22:27:58,288 > ----------getHtml()----------
 [INFO|mkHtml.py:5] 2020-02-01 22:28:45,556 > ----------getHtml()----------
+[INFO|main.py:5] 2020-02-02 00:01:38,524 > ----------main()----------
+[INFO|main.py:6] 2020-02-02 00:01:38,525 > start main()
+[INFO|crawler.py:136] 2020-02-02 00:01:38,525 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-02 00:01:38,525 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-02 00:01:38,525 > get Source Datas
+[INFO|crawler.py:107] 2020-02-02 00:01:38,807 > parsing Datas
+[INFO|crawler.py:112] 2020-02-02 00:01:38,807 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-02 00:01:38,807 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-02 00:01:38,807 > get Source Datas
+[INFO|crawler.py:87] 2020-02-02 00:01:38,861 > parsing Datas
+[INFO|crawler.py:93] 2020-02-02 00:01:38,861 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-02 00:01:38,861 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-02 00:01:38,861 > get Source Datas
+[INFO|crawler.py:123] 2020-02-02 00:01:39,577 > parsing Datas
+[INFO|crawler.py:129] 2020-02-02 00:01:39,577 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-02 00:01:39,577 > ----------setKeywordHeader()----------
+[INFO|crawler.py:61] 2020-02-02 00:01:39,578 > Header Setting
+[INFO|crawler.py:140] 2020-02-02 00:01:39,578 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-02.txt
+[INFO|crawler.py:143] 2020-02-02 00:01:39,578 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-02 00:01:39,579 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-02 00:01:39,579 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-02 00:01:39,580 > succ make file
+[INFO|crawler.py:149] 2020-02-02 00:01:39,580 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-02 00:01:39,580 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-02 00:01:39,876 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-02 00:01:39,876 > Header Already set 
+[INFO|crawler.py:67] 2020-02-02 00:01:39,876 > ----------setNewsHeader()----------
+[INFO|crawler.py:72] 2020-02-02 00:01:39,876 > Header Setting
+[INFO|crawler.py:155] 2020-02-02 00:01:39,877 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-02.txt
+[INFO|crawler.py:159] 2020-02-02 00:01:39,877 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-02 00:01:39,883 > succ make file
+[INFO|main.py:10] 2020-02-02 00:01:39,884 > end main()
+[INFO|mkHtml.py:5] 2020-02-02 00:01:45,046 > ----------getHtml()----------
+[INFO|main.py:5] 2020-02-02 18:01:04,360 > ----------main()----------
+[INFO|main.py:6] 2020-02-02 18:01:04,377 > start main()
+[INFO|crawler.py:136] 2020-02-02 18:01:04,377 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-02 18:01:04,377 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-02 18:01:04,377 > get Source Datas
+[INFO|crawler.py:107] 2020-02-02 18:01:04,589 > parsing Datas
+[INFO|crawler.py:112] 2020-02-02 18:01:04,589 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-02 18:01:04,590 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-02 18:01:04,590 > get Source Datas
+[INFO|crawler.py:87] 2020-02-02 18:01:04,635 > parsing Datas
+[INFO|crawler.py:93] 2020-02-02 18:01:04,635 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-02 18:01:04,635 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-02 18:01:04,635 > get Source Datas
+[INFO|crawler.py:123] 2020-02-02 18:01:05,346 > parsing Datas
+[INFO|crawler.py:129] 2020-02-02 18:01:05,347 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-02 18:01:05,347 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-02 18:01:05,347 > Header Already set 
+[INFO|crawler.py:140] 2020-02-02 18:01:05,347 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-02.txt
+[INFO|crawler.py:143] 2020-02-02 18:01:05,348 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-02 18:01:05,348 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-02 18:01:05,348 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-02 18:01:05,365 > succ make file
+[INFO|crawler.py:149] 2020-02-02 18:01:05,365 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-02 18:01:05,365 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-02 18:01:05,598 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-02 18:01:05,599 > Header Already set 
+[INFO|crawler.py:67] 2020-02-02 18:01:05,599 > ----------setNewsHeader()----------
+[INFO|crawler.py:69] 2020-02-02 18:01:05,599 > Header Already set 
+[INFO|crawler.py:155] 2020-02-02 18:01:05,599 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-02.txt
+[INFO|crawler.py:159] 2020-02-02 18:01:05,600 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-02 18:01:05,600 > succ make file
+[INFO|main.py:10] 2020-02-02 18:01:05,600 > end main()
+[INFO|mkHtml.py:5] 2020-02-02 18:01:12,987 > ----------getHtml()----------
+[INFO|main.py:5] 2020-02-03 00:00:08,719 > ----------main()----------
+[INFO|main.py:6] 2020-02-03 00:00:08,739 > start main()
+[INFO|crawler.py:136] 2020-02-03 00:00:08,740 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-03 00:00:08,740 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-03 00:00:08,740 > get Source Datas
+[INFO|crawler.py:107] 2020-02-03 00:00:08,919 > parsing Datas
+[INFO|crawler.py:112] 2020-02-03 00:00:08,919 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-03 00:00:08,919 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-03 00:00:08,919 > get Source Datas
+[INFO|crawler.py:87] 2020-02-03 00:00:08,962 > parsing Datas
+[INFO|crawler.py:93] 2020-02-03 00:00:08,962 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-03 00:00:08,962 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-03 00:00:08,962 > get Source Datas
+[INFO|crawler.py:123] 2020-02-03 00:00:09,636 > parsing Datas
+[INFO|crawler.py:129] 2020-02-03 00:00:09,636 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-03 00:00:09,636 > ----------setKeywordHeader()----------
+[INFO|crawler.py:61] 2020-02-03 00:00:09,655 > Header Setting
+[INFO|crawler.py:140] 2020-02-03 00:00:09,655 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-03.txt
+[INFO|crawler.py:143] 2020-02-03 00:00:09,655 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-03 00:00:09,655 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-03 00:00:09,656 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-03 00:00:09,656 > succ make file
+[INFO|crawler.py:149] 2020-02-03 00:00:09,656 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-03 00:00:09,656 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-03 00:00:09,847 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-03 00:00:09,847 > Header Already set 
+[INFO|crawler.py:67] 2020-02-03 00:00:09,847 > ----------setNewsHeader()----------
+[INFO|crawler.py:72] 2020-02-03 00:00:09,847 > Header Setting
+[INFO|crawler.py:155] 2020-02-03 00:00:09,848 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-03.txt
+[INFO|crawler.py:159] 2020-02-03 00:00:09,848 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-03 00:00:09,848 > succ make file
+[INFO|main.py:10] 2020-02-03 00:00:09,849 > end main()
+[INFO|mkHtml.py:5] 2020-02-03 00:00:14,180 > ----------getHtml()----------
+[INFO|mkHtml.py:5] 2020-02-03 00:02:49,897 > ----------getHtml()----------
+[INFO|mkHtml.py:5] 2020-02-03 22:41:22,857 > ----------getHtml()----------
+[INFO|mkHtml.py:5] 2020-02-03 22:41:41,361 > ----------getHtml()----------
+[INFO|main.py:5] 2020-02-04 00:00:05,939 > ----------main()----------
+[INFO|main.py:6] 2020-02-04 00:00:05,939 > start main()
+[INFO|crawler.py:136] 2020-02-04 00:00:05,939 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-04 00:00:05,939 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-04 00:00:05,939 > get Source Datas
+[INFO|crawler.py:107] 2020-02-04 00:00:06,363 > parsing Datas
+[INFO|crawler.py:112] 2020-02-04 00:00:06,363 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-04 00:00:06,364 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-04 00:00:06,364 > get Source Datas
+[INFO|crawler.py:87] 2020-02-04 00:00:06,420 > parsing Datas
+[INFO|crawler.py:93] 2020-02-04 00:00:06,420 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-04 00:00:06,420 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-04 00:00:06,420 > get Source Datas
+[INFO|crawler.py:123] 2020-02-04 00:00:07,229 > parsing Datas
+[INFO|crawler.py:129] 2020-02-04 00:00:07,229 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-04 00:00:07,229 > ----------setKeywordHeader()----------
+[INFO|crawler.py:61] 2020-02-04 00:00:07,229 > Header Setting
+[INFO|crawler.py:140] 2020-02-04 00:00:07,230 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-04.txt
+[INFO|crawler.py:143] 2020-02-04 00:00:07,230 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-04 00:00:07,230 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-04 00:00:07,230 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-04 00:00:07,231 > succ make file
+[INFO|crawler.py:149] 2020-02-04 00:00:07,231 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-04 00:00:07,231 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-04 00:00:07,532 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-04 00:00:07,532 > Header Already set 
+[INFO|crawler.py:67] 2020-02-04 00:00:07,532 > ----------setNewsHeader()----------
+[INFO|crawler.py:72] 2020-02-04 00:00:07,532 > Header Setting
+[INFO|crawler.py:155] 2020-02-04 00:00:07,538 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-04.txt
+[INFO|crawler.py:159] 2020-02-04 00:00:07,538 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-04 00:00:07,539 > succ make file
+[INFO|main.py:10] 2020-02-04 00:00:07,539 > end main()
+[INFO|mkHtml.py:5] 2020-02-04 00:00:08,862 > ----------getHtml()----------
+[INFO|main.py:5] 2020-02-04 18:47:36,026 > ----------main()----------
+[INFO|main.py:6] 2020-02-04 18:47:36,078 > start main()
+[INFO|crawler.py:136] 2020-02-04 18:47:36,078 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-04 18:47:36,078 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-04 18:47:36,078 > get Source Datas
+[INFO|crawler.py:107] 2020-02-04 18:47:36,659 > parsing Datas
+[INFO|crawler.py:112] 2020-02-04 18:47:36,659 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-04 18:47:36,659 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-04 18:47:36,659 > get Source Datas
+[INFO|crawler.py:87] 2020-02-04 18:47:36,723 > parsing Datas
+[INFO|crawler.py:93] 2020-02-04 18:47:36,723 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-04 18:47:36,723 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-04 18:47:36,723 > get Source Datas
+[INFO|crawler.py:123] 2020-02-04 18:47:37,461 > parsing Datas
+[INFO|crawler.py:129] 2020-02-04 18:47:37,462 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-04 18:47:37,462 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-04 18:47:37,469 > Header Already set 
+[INFO|crawler.py:140] 2020-02-04 18:47:37,469 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-04.txt
+[INFO|crawler.py:143] 2020-02-04 18:47:37,469 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-04 18:47:37,469 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-04 18:47:37,469 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-04 18:47:37,505 > succ make file
+[INFO|crawler.py:149] 2020-02-04 18:47:37,505 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-04 18:47:37,505 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-04 18:47:37,705 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-04 18:47:37,705 > Header Already set 
+[INFO|crawler.py:67] 2020-02-04 18:47:37,705 > ----------setNewsHeader()----------
+[INFO|crawler.py:69] 2020-02-04 18:47:37,706 > Header Already set 
+[INFO|crawler.py:155] 2020-02-04 18:47:37,706 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-04.txt
+[INFO|crawler.py:159] 2020-02-04 18:47:37,706 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-04 18:47:37,706 > succ make file
+[INFO|main.py:10] 2020-02-04 18:47:37,707 > end main()
+[INFO|mkHtml.py:5] 2020-02-04 18:47:40,302 > ----------getHtml()----------
+[INFO|main.py:7] 2020-02-05 00:00:24,710 > ----------main()----------
+[INFO|main.py:8] 2020-02-05 00:00:24,710 > start main()
+[INFO|crawler.py:136] 2020-02-05 00:00:24,710 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-05 00:00:24,710 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-05 00:00:24,710 > get Source Datas
+[INFO|crawler.py:107] 2020-02-05 00:00:24,997 > parsing Datas
+[INFO|crawler.py:112] 2020-02-05 00:00:24,998 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-05 00:00:24,998 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-05 00:00:24,998 > get Source Datas
+[INFO|crawler.py:87] 2020-02-05 00:00:25,055 > parsing Datas
+[INFO|crawler.py:93] 2020-02-05 00:00:25,055 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-05 00:00:25,055 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-05 00:00:25,055 > get Source Datas
+[INFO|crawler.py:123] 2020-02-05 00:00:25,837 > parsing Datas
+[INFO|crawler.py:129] 2020-02-05 00:00:25,837 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-05 00:00:25,837 > ----------setKeywordHeader()----------
+[INFO|crawler.py:61] 2020-02-05 00:00:25,837 > Header Setting
+[INFO|crawler.py:140] 2020-02-05 00:00:25,838 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-05.txt
+[INFO|crawler.py:143] 2020-02-05 00:00:25,838 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-05 00:00:25,838 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-05 00:00:25,838 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-05 00:00:25,839 > succ make file
+[INFO|crawler.py:149] 2020-02-05 00:00:25,839 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-05 00:00:25,839 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-05 00:00:26,152 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-05 00:00:26,153 > Header Already set 
+[INFO|crawler.py:67] 2020-02-05 00:00:26,153 > ----------setNewsHeader()----------
+[INFO|crawler.py:72] 2020-02-05 00:00:26,153 > Header Setting
+[INFO|crawler.py:155] 2020-02-05 00:00:26,165 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-05.txt
+[INFO|crawler.py:159] 2020-02-05 00:00:26,165 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-05 00:00:26,165 > succ make file
+[INFO|main.py:12] 2020-02-05 00:00:26,166 > end main()
+[INFO|main.py:10] 2020-02-05 00:07:53,295 > ----------main()----------
+[INFO|main.py:11] 2020-02-05 00:07:53,295 > start main()
+[INFO|crawler.py:136] 2020-02-05 00:07:53,295 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-05 00:07:53,295 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-05 00:07:53,295 > get Source Datas
+[INFO|crawler.py:107] 2020-02-05 00:07:53,579 > parsing Datas
+[INFO|crawler.py:112] 2020-02-05 00:07:53,579 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-05 00:07:53,579 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-05 00:07:53,579 > get Source Datas
+[INFO|crawler.py:87] 2020-02-05 00:07:53,861 > parsing Datas
+[INFO|crawler.py:93] 2020-02-05 00:07:53,861 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-05 00:07:53,861 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-05 00:07:53,861 > get Source Datas
+[INFO|crawler.py:123] 2020-02-05 00:07:54,971 > parsing Datas
+[INFO|crawler.py:129] 2020-02-05 00:07:54,972 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-05 00:07:54,972 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-05 00:07:54,972 > Header Already set 
+[INFO|crawler.py:140] 2020-02-05 00:07:54,972 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-05.txt
+[INFO|crawler.py:143] 2020-02-05 00:07:54,972 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-05 00:07:54,972 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-05 00:07:54,972 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-05 00:07:54,973 > succ make file
+[INFO|crawler.py:149] 2020-02-05 00:07:54,973 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-05 00:07:54,973 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-05 00:07:55,269 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-05 00:07:55,269 > Header Already set 
+[INFO|crawler.py:67] 2020-02-05 00:07:55,269 > ----------setNewsHeader()----------
+[INFO|crawler.py:69] 2020-02-05 00:07:55,270 > Header Already set 
+[INFO|crawler.py:155] 2020-02-05 00:07:55,270 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-05.txt
+[INFO|crawler.py:159] 2020-02-05 00:07:55,270 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-05 00:07:55,270 > succ make file
+[INFO|main.py:15] 2020-02-05 00:07:55,271 > end main()
+[INFO|mkHtml.py:5] 2020-02-05 00:09:50,399 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-05 00:10:18,879 > ----------main()----------
+[INFO|main.py:11] 2020-02-05 00:10:18,879 > start main()
+[INFO|crawler.py:136] 2020-02-05 00:10:18,879 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:98] 2020-02-05 00:10:18,879 > ----------getDaumKeyword()----------
+[INFO|crawler.py:99] 2020-02-05 00:10:18,879 > get Source Datas
+[INFO|crawler.py:107] 2020-02-05 00:10:19,153 > parsing Datas
+[INFO|crawler.py:112] 2020-02-05 00:10:19,153 > succ pasrsing
+[INFO|crawler.py:81] 2020-02-05 00:10:19,153 > ----------getNaverKeyword()----------
+[INFO|crawler.py:82] 2020-02-05 00:10:19,153 > get Source Datas
+[INFO|crawler.py:87] 2020-02-05 00:10:19,210 > parsing Datas
+[INFO|crawler.py:93] 2020-02-05 00:10:19,210 > succ pasrsing
+[INFO|crawler.py:116] 2020-02-05 00:10:19,210 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:118] 2020-02-05 00:10:19,210 > get Source Datas
+[INFO|crawler.py:123] 2020-02-05 00:10:20,206 > parsing Datas
+[INFO|crawler.py:129] 2020-02-05 00:10:20,206 > succ pasrsing
+[INFO|crawler.py:56] 2020-02-05 00:10:20,206 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-05 00:10:20,207 > Header Already set 
+[INFO|crawler.py:140] 2020-02-05 00:10:20,207 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_2020-02-05.txt
+[INFO|crawler.py:143] 2020-02-05 00:10:20,207 > write data - write num : 0
+[INFO|crawler.py:143] 2020-02-05 00:10:20,207 > write data - write num : 1
+[INFO|crawler.py:143] 2020-02-05 00:10:20,207 > write data - write num : 2
+[INFO|crawler.py:145] 2020-02-05 00:10:20,207 > succ make file
+[INFO|crawler.py:149] 2020-02-05 00:10:20,208 > ----------getResultNewsFile()----------
+[INFO|crawler.py:166] 2020-02-05 00:10:20,208 > ----------getDaumNews()----------
+[INFO|crawler.py:56] 2020-02-05 00:10:20,550 > ----------setKeywordHeader()----------
+[INFO|crawler.py:58] 2020-02-05 00:10:20,550 > Header Already set 
+[INFO|crawler.py:67] 2020-02-05 00:10:20,550 > ----------setNewsHeader()----------
+[INFO|crawler.py:69] 2020-02-05 00:10:20,550 > Header Already set 
+[INFO|crawler.py:155] 2020-02-05 00:10:20,550 > make file - file path : E:\python\python_project\crawlKeywords\app/files/result_news_2020-02-05.txt
+[INFO|crawler.py:159] 2020-02-05 00:10:20,550 > write data - write num : 0
+[INFO|crawler.py:161] 2020-02-05 00:10:20,551 > succ make file
+[INFO|main.py:15] 2020-02-05 00:10:20,551 > end main()

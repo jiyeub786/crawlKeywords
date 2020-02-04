@@ -1,7 +1,7 @@
 import crawler as cw
 from module.logger import logger
 
-def getHtml():
+def getKeywordHtml():
     logger.info("----------getHtml()----------")
     daum = []
     naver = []
@@ -31,11 +31,12 @@ def getHtml():
             youtube.append(v)
 
     sets= set(sets)
+    sets.remove('time')
     print(sets)
 
 
     for i0,v0 in enumerate(sets):
-        create_dt = '2020-02-01 09:00'
+        create_dt = '2020-02-03 00:00'
         print(v0)
 
         # get html
@@ -57,7 +58,7 @@ def getHtml():
         #for
         for i, v in enumerate(daum):
             if v0 == v[2] :
-                print('<a id="outlink_daum" href = "%s" > 검색순위%s : "%s"</a>' %( v[5],v[3],v[4]))
+                print('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
 
 
         print('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
@@ -74,7 +75,7 @@ def getHtml():
         #for#for
         for i, v in enumerate(naver):
             if v0 == v[2]:
-                print('<a id="outlink_naver" href = "%s" > 검색순위%s : "%s"</a>' %( v[5],v[3],v[4]))
+                print('<a id="outlink_naver" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
 
         print('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
         print('</br>')
@@ -90,7 +91,7 @@ def getHtml():
         #for#for
         for i, v in enumerate(youtube):
             if v0 == v[2]:
-                print('<a id="outlink_youtube" href = "%s" > 검색순위%s : "%s"</a>' %( v[5],v[3],v[4]))
+                print('<a id="outlink_youtube" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
 
         print('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
         print('<p class ="outlink"><a href = "style_title" >맨 위로</a></p>')
@@ -104,4 +105,4 @@ def getHtml():
         print('</br>')
 
 
-getHtml()
+getKeywordHtml()
