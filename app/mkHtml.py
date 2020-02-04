@@ -87,14 +87,19 @@ def getKeywordHtml():
         print('</br>')
         print('</br>')
 
-        print('<h3 id= "style_youtube" ><b>※ 유튜브 인기 검색순위(1~%s)</b></h3>' %(str(len(youtube))))
+        youtube_cnt =0
+        for i, v in enumerate(youtube):
+            if v0 == v[2]:
+                youtube_cnt = youtube_cnt +1
+
+        print('<h3 id= "style_youtube" ><b>※ 유튜브 인기 검색순위(1~%s)</b></h3>' %(str(youtube_cnt)))
         #for#for
         for i, v in enumerate(youtube):
             if v0 == v[2]:
                 print('<a id="outlink_youtube" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
 
         print('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
-        print('<p class ="outlink"><a href = "style_title" >맨 위로</a></p>')
+        print('<p class ="outlink"><a href = "#style_title" >맨 위로</a></p>')
         print('</br>')
         print('</br>')
         print('</br>')

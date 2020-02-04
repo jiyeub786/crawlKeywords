@@ -3,6 +3,8 @@ from module.logger import logger
 import time
 import threading
 
+schd = ['09:00', '18:00', '00:00']
+
 def main():
     logger.info("----------main()----------")
     logger.info("start main()")
@@ -11,10 +13,9 @@ def main():
     logger.info("end main()")
 
 def thread_run():
-    times = ['09:00', '18:00', '00:00','00:10']
-    t = time.strftime('%H:%M', time.localtime(time.time()))
-    for i,v in enumerate(times):
-        if v == t:
+    now = time.strftime('%H:%M', time.localtime(time.time()))
+    for i,v in enumerate(schd):
+        if v == now:
             main()
     threading.Timer(60, thread_run).start()
 

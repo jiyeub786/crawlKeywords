@@ -14441,3 +14441,6 @@
 [INFO|crawler.py:159] 2020-02-05 00:10:20,550 > write data - write num : 0
 [INFO|crawler.py:161] 2020-02-05 00:10:20,551 > succ make file
 [INFO|main.py:15] 2020-02-05 00:10:20,551 > end main()
+[INFO|mkHtml.py:5] 2020-02-05 00:26:07,910 > ----------getHtml()----------
+[INFO|mkHtml.py:5] 2020-02-05 00:26:23,457 > ----------getHtml()----------
+[INFO|mkHtml.py:5] 2020-02-05 00:27:13,460 > ----------getHtml()----------
