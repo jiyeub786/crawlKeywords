@@ -3,28 +3,33 @@ from module.logger import logger
 import time
 import threading
 
+globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
 schd = ['09:00', '18:00', '00:00']
+
+def setTime():
+    global globalTime
+    global globalDate
+    globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+    globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
 
 def main():
     logger.info("----------main()----------")
-    logger.info("start main()")
+    logger.debug("start main()")
     cw.getResultKeywordFile()
     cw.getResultNewsFile()
-    logger.info("end main()")
+    logger.debug("end main()")
+
 
 def thread_run():
-
     now = time.strftime('%H:%M', time.localtime(time.time()))
-    print('gogogo'+ now)
-    for i,v in enumerate(schd):
+    print('running....' + now)
+    for i, v in enumerate(schd):
         if v == now:
             main()
     threading.Timer(60, thread_run).start()
 
+
 if __name__ == "__main__":
-   # thread_run() # 스케줄
-    main()   # 바로실행
-
-
-
-
+    #thread_run()  # 스케줄
+     main()   # 바로실행
