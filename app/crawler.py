@@ -6,13 +6,12 @@ from module.logger import logger
 from module import functions  as fn
 import os
 
-date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-time = time.strftime('%H:%M:%S', time.localtime(time.time()))
+dateN = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 
 base_dir = os.path.dirname( os.path.abspath( __file__ ) ) +"/files/"
 
-file_keyword = base_dir+"result_"+date +".txt"
-file_news = base_dir+"result_news_"+date +".txt"
+file_keyword = base_dir+"result_"+dateN +".txt"
+file_news = base_dir+"result_news_"+dateN +".txt"
 
 header_keyword = "target\tdate\ttime\trank\tkeyword\turls\n"
 header_news = "target\tdate\ttime\trank\ttitle\tcontents\turls\n"
@@ -51,7 +50,6 @@ urls = [ "https://www.naver.com/srchrank?frm=main&ag=all&gr=1&ma=-2&si=0&en=0&sp
 #            f.write(headers[i])
 #            f.close()
 
-
 def setKeywordHeader():
     logger.info("----------setKeywordHeader()----------")
     if os.path.exists(file_keyword):
@@ -74,9 +72,6 @@ def setNewsHeader():
         f.write(header_news)
         f.close()
 
-
-
-
 def getNaverKeyword() :
     logger.info("----------getNaverKeyword()----------")
     logger.info("get Source Datas")
@@ -88,11 +83,10 @@ def getNaverKeyword() :
     datas =[]
     for i,v in enumerate(data):
 
-        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[0], date, time, str(i+1).zfill(2), v['keyword'] ,'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
-        logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[0],date,time, str(i+1).zfill(2) , v['keyword'],'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
+        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[0], dateN, timeN, str(i+1).zfill(2), v['keyword'] ,'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
+        logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[0],dateN,timeN, str(i+1).zfill(2) , v['keyword'],'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
     logger.info('succ pasrsing')
     return datas
-
 
 def getDaumKeyword() :
     logger.info("----------getDaumKeyword()----------")
@@ -107,8 +101,8 @@ def getDaumKeyword() :
     logger.info("parsing Datas")
     datas =[]
     for i,v in enumerate(searchword_list):
-        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n"  % (target_code[1],date, time, str(i+1).zfill(2), v ,'https://search.daum.net/search?w=tot&q='+v))
-        logger.debug("%s\t%s\t%s\t%s\t%s\t%s"  % (target_code[1],date, time, str(i+1).zfill(2), v,'https://search.daum.net/search?w=tot&q='+v))
+        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n"  % (target_code[1],dateN, timeN, str(i+1).zfill(2), v ,'https://search.daum.net/search?w=tot&q='+v))
+        logger.debug("%s\t%s\t%s\t%s\t%s\t%s"  % (target_code[1],dateN, timeN, str(i+1).zfill(2), v,'https://search.daum.net/search?w=tot&q='+v))
     logger.info('succ pasrsing')
     return datas
 
@@ -124,16 +118,40 @@ def getYoutubeKeyword():
     datas = []
     for i, v in enumerate(elem_list):
         if 'title' in v.attrs:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[2],date,time,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[2],date,time,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
+            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[2],dateN,timeN,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
+            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[2],dateN,timeN,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
     logger.info('succ pasrsing')
     return datas
 
+def getDaumNews():
+    logger.info("----------getDaumNews()----------")
+    source = requests.get(urls[3]).text
+    soup = BeautifulSoup(source, 'html.parser')
+    elem_list_title = soup.select("div.cont_thumb .tit_thumb a")
+    elem_list_desc = soup.select("div.cont_thumb .desc_thumb span")
 
+    titles = []
+    descs = []
+    datas = []
+    for i, v in enumerate(elem_list_title):
+        titles.append(v.text + '\t' + v.attrs['href'])
+        # print(v.text+'\t'+v.attrs['href'])
 
+    for i, v in enumerate(elem_list_desc):
+        descs.append(v.text.strip())
+
+    fn.aryLenSync(titles, descs)
+
+    for i, v in enumerate(titles):
+        datas.append('%s\t%s\t%s\t%s\t%s\t%s\t%s\n' %(target_code[3], dateN, timeN, str(i + 1).zfill(2), titles[i].split('\t')[0], descs[i], titles[i].split('\t')[1]))
+        logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code[3], dateN, timeN, str(i + 1).zfill(2), titles[i].split('\t')[0] , descs[i], titles[i].split('\t')[1]))
+
+    return datas
 
 def getResultKeywordFile():
     logger.info("----------getResultKeywordFile()----------")
+    global timeN
+    timeN = time.strftime('%H:%M:%S', time.localtime(time.time()))
     getDatas = [getDaumKeyword(), getNaverKeyword(), getYoutubeKeyword()]
     setKeywordHeader()
 
@@ -160,30 +178,3 @@ def getResultNewsFile():
         f.writelines(v)
     logger.info('succ make file')
     f.close()
-
-
-def getDaumNews():
-    logger.info("----------getDaumNews()----------")
-    source = requests.get(urls[3]).text
-    soup = BeautifulSoup(source, 'html.parser')
-    elem_list_title = soup.select("div.cont_thumb .tit_thumb a")
-    elem_list_desc = soup.select("div.cont_thumb .desc_thumb span")
-
-    titles = []
-    descs = []
-    datas = []
-    for i, v in enumerate(elem_list_title):
-        titles.append(v.text + '\t' + v.attrs['href'])
-        # print(v.text+'\t'+v.attrs['href'])
-
-    for i, v in enumerate(elem_list_desc):
-        descs.append(v.text.strip())
-
-    fn.aryLenSync(titles, descs)
-
-    for i, v in enumerate(titles):
-        datas.append('%s\t%s\t%s\t%s\t%s\t%s\t%s\n' %(target_code[3], date, time, str(i + 1).zfill(2), titles[i].split('\t')[0], descs[i], titles[i].split('\t')[1]))
-        logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code[3], date, time, str(i + 1).zfill(2), titles[i].split('\t')[0] , descs[i], titles[i].split('\t')[1]))
-
-    return datas
-
