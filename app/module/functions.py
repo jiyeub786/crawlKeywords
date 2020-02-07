@@ -1,6 +1,4 @@
-import time
-import os
-
+from urllib import parse
 
 
 def aryLenSync(ary1, ary2):
@@ -22,4 +20,8 @@ def aryLenSync(ary1, ary2):
 
 def getConvData(str):
     return str.replace('\n','')
+
+
+def getEncodeUrl(str):
+    return parse.quote(str)
 
