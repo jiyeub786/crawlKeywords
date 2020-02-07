@@ -61,8 +61,8 @@ def getNaverKeyword() :
 
     for i,v in enumerate(data):
 
-        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[0], m.globalDate, m.globalTime, str(i+1).zfill(2), v['keyword'] ,'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
-        logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[0],m.globalDate,m.globalTime, str(i+1).zfill(2) , v['keyword'],'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
+        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[0], m.globalDate, m.globalTime, str(i+1).zfill(2), fn.getConvData(v['keyword']) ,'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
+        logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[0],m.globalDate,m.globalTime, str(i+1).zfill(2) , fn.getConvData(v['keyword']),'https://search.naver.com/search.naver?where=nexearch&query=' +v['keyword'] ))
     logger.debug('succ pasrsing')
     return datas
 
@@ -79,8 +79,8 @@ def getDaumKeyword() :
     logger.debug("parsing Datas")
     datas =[]
     for i,v in enumerate(searchword_list):
-        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n"  % (target_code[1],m.globalDate, m.globalTime, str(i+1).zfill(2), v ,'https://search.daum.net/search?w=tot&q='+v))
-        logger.debug("%s\t%s\t%s\t%s\t%s\t%s"  % (target_code[1],m.globalDate, m.globalTime, str(i+1).zfill(2), v,'https://search.daum.net/search?w=tot&q='+v))
+        datas.append("%s\t%s\t%s\t%s\t%s\t%s\n"  % (target_code[1],m.globalDate, m.globalTime, str(i+1).zfill(2), fn.getConvData(v) ,'https://search.daum.net/search?w=tot&q='+v))
+        logger.debug("%s\t%s\t%s\t%s\t%s\t%s"  % (target_code[1],m.globalDate, m.globalTime, str(i+1).zfill(2), fn.getConvData(v),'https://search.daum.net/search?w=tot&q='+v))
     logger.debug('succ pasrsing')
     return datas
 
@@ -96,8 +96,8 @@ def getYoutubeKeyword():
     datas = []
     for i, v in enumerate(elem_list):
         if 'title' in v.attrs:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[2],m.globalDate,m.globalTime,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[2],m.globalDate,m.globalTime,str(i+1).zfill(2), v.attrs['title'], "https://www.youtube.com" + v.attrs['href']))
+            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code[2],m.globalDate,m.globalTime,str(i+1).zfill(2), fn.getConvData(v.attrs['title']), "https://www.youtube.com" + v.attrs['href']))
+            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code[2],m.globalDate,m.globalTime,str(i+1).zfill(2), fn.getConvData(v.attrs['title']), "https://www.youtube.com" + v.attrs['href']))
     logger.debug('succ pasrsing')
     return datas
 
@@ -121,8 +121,8 @@ def getDaumNews():
     fn.aryLenSync(titles, descs)
 
     for i, v in enumerate(titles):
-        datas.append('%s\t%s\t%s\t%s\t%s\t%s\t%s\n' %(target_code[3], m.globalDate, m.globalTime, str(i + 1).zfill(2), titles[i].split('\t')[0], descs[i], titles[i].split('\t')[1]))
-        logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code[3], m.globalDate, m.globalTime, str(i + 1).zfill(2), titles[i].split('\t')[0] , descs[i], titles[i].split('\t')[1]))
+        datas.append('%s\t%s\t%s\t%s\t%s\t%s\t%s\n' %(target_code[3], m.globalDate, m.globalTime, str(i + 1).zfill(2), fn.getConvData(titles[i].split('\t')[0]), fn.getConvData(descs[i]), titles[i].split('\t')[1]))
+        logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code[3], m.globalDate, m.globalTime, str(i + 1).zfill(2), fn.getConvData(titles[i].split('\t')[0]) , fn.getConvData(descs[i]), titles[i].split('\t')[1]))
 
     return datas
 

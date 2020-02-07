@@ -19,3 +19,7 @@ def aryLenSync(ary1, ary2):
 
 
 
+
+def getConvData(str):
+    return str.replace('\n','')
+

@@ -2265,3 +2265,127 @@ target	date	time	rank	keyword	urls
 03	2020-02-07	00:49:50	85	[요약] 영원한 드림즈의 19승 투수! 불사조 장진우🤘 《스토브리그 / 스브스캐치》	https://www.youtube.com/watch?v=LJ5K34BEjm8
 03	2020-02-07	00:49:50	86	[알릴레오 라이브 18회] '신종코로나 공포' 국민의 안전이 먼저입니다. (20.02.04)	https://www.youtube.com/watch?v=1Peb2pRSoYc
 03	2020-02-07	00:49:50	87	[1月의 무도] 어떻게 추격전까지 사랑하겠어 닭꼬치를 사랑하는거지 "끝까지 간다 1" infinite challenge	https://www.youtube.com/watch?v=uiRdEEcFZ4M
+02	2020-02-07	11:06:52	01	네이처셀	https://search.daum.net/search?w=tot&q=네이처셀
+02	2020-02-07	11:06:52	02	너를 만났다	https://search.daum.net/search?w=tot&q=너를 만났다
+02	2020-02-07	11:06:52	03	은수미	https://search.daum.net/search?w=tot&q=은수미
+02	2020-02-07	11:06:52	04	정월대보름	https://search.daum.net/search?w=tot&q=정월대보름
+02	2020-02-07	11:06:52	05	한국사 능력시험	https://search.daum.net/search?w=tot&q=한국사 능력시험
+02	2020-02-07	11:06:52	06	윤주경	https://search.daum.net/search?w=tot&q=윤주경
+02	2020-02-07	11:06:52	07	순천 돌탑공원	https://search.daum.net/search?w=tot&q=순천 돌탑공원
+02	2020-02-07	11:06:52	08	일본 크루즈 코로나	https://search.daum.net/search?w=tot&q=일본 크루즈 코로나
+02	2020-02-07	11:06:52	09	공소장	https://search.daum.net/search?w=tot&q=공소장
+02	2020-02-07	11:06:52	10	라정찬	https://search.daum.net/search?w=tot&q=라정찬
+01	2020-02-07	11:06:52	01	네이처셀	https://search.naver.com/search.naver?where=nexearch&query=네이처셀
+01	2020-02-07	11:06:52	02	은수미	https://search.naver.com/search.naver?where=nexearch&query=은수미
+01	2020-02-07	11:06:52	03	24번째 확진자	https://search.naver.com/search.naver?where=nexearch&query=24번째 확진자
+01	2020-02-07	11:06:52	04	mbc 너를 만났다	https://search.naver.com/search.naver?where=nexearch&query=mbc 너를 만났다
+01	2020-02-07	11:06:52	05	일본 크루즈	https://search.naver.com/search.naver?where=nexearch&query=일본 크루즈
+01	2020-02-07	11:06:52	06	리원량	https://search.naver.com/search.naver?where=nexearch&query=리원량
+01	2020-02-07	11:06:52	07	mbc스페셜 너를만났다	https://search.naver.com/search.naver?where=nexearch&query=mbc스페셜 너를만났다
+01	2020-02-07	11:06:52	08	이찬원	https://search.naver.com/search.naver?where=nexearch&query=이찬원
+01	2020-02-07	11:06:52	09	김호중	https://search.naver.com/search.naver?where=nexearch&query=김호중
+01	2020-02-07	11:06:52	10	노지훈	https://search.naver.com/search.naver?where=nexearch&query=노지훈
+01	2020-02-07	11:06:52	11	사이코지만 괜찮아	https://search.naver.com/search.naver?where=nexearch&query=사이코지만 괜찮아
+01	2020-02-07	11:06:52	12	라정찬	https://search.naver.com/search.naver?where=nexearch&query=라정찬
+01	2020-02-07	11:06:52	13	나연이 엄마 블로그	https://search.naver.com/search.naver?where=nexearch&query=나연이 엄마 블로그
+01	2020-02-07	11:06:52	14	텐센트	https://search.naver.com/search.naver?where=nexearch&query=텐센트
+01	2020-02-07	11:06:52	15	나연이엄마	https://search.naver.com/search.naver?where=nexearch&query=나연이엄마
+01	2020-02-07	11:06:52	16	이상이	https://search.naver.com/search.naver?where=nexearch&query=이상이
+01	2020-02-07	11:06:52	17	미스 페레그린과 이상한 아이들의 집	https://search.naver.com/search.naver?where=nexearch&query=미스 페레그린과 이상한 아이들의 집
+01	2020-02-07	11:06:52	18	도끼	https://search.naver.com/search.naver?where=nexearch&query=도끼
+01	2020-02-07	11:06:52	19	한국사	https://search.naver.com/search.naver?where=nexearch&query=한국사
+01	2020-02-07	11:06:52	20	장민호	https://search.naver.com/search.naver?where=nexearch&query=장민호
+03	2020-02-07	11:06:52	01	[19/20 잉글랜드FA컵] 토트넘 vs 사우스햄튼 H/L	https://www.youtube.com/watch?v=vjs0VVMw8AA
+03	2020-02-07	11:06:52	02	＂사장님은 말끝마다 다 핑계야!＂ 홍제동 팥칼국수집 돌고도는 핑계..말말말 모음 2탄 [예능맛ZIP/ 골목식당_BackStreet]	https://www.youtube.com/watch?v=8VtKvuSpYmA
+03	2020-02-07	11:06:52	03	너무 좋아해서 짝사랑만 하는 거 이해됨? [엑스엑스(XX)] - EP.04	https://www.youtube.com/watch?v=fYKNnUnaFi0
+03	2020-02-07	11:06:52	04	[VR휴먼다큐멘터리 - 너를 만났다]  "엄마 살자고 붙들고 놓지 못해서 미안해"	https://www.youtube.com/watch?v=IZoFQIwPoEI
+03	2020-02-07	11:06:52	05	한이재 Cover 뜨거운안녕 ( 쟈니리 )	https://www.youtube.com/watch?v=o4jZs-jMX5s
+03	2020-02-07	11:06:52	06	한이재 Cover 나무꾼 ( 박구윤 )	https://www.youtube.com/watch?v=VkUvIf43XAY
+03	2020-02-07	11:06:52	07	미스터트롯(한이재)아수라트롯 "당신이좋아 " 남자?여자?	https://www.youtube.com/watch?v=y-IougNGX8M
+03	2020-02-07	11:06:52	08	한이재 Cover 미스터트롯 버젼  ( 남진.장윤정  ) 아수라트롯	https://www.youtube.com/watch?v=iHFN6kdsUQs
+03	2020-02-07	11:06:52	09	한이재 Cover 마지막 잎새 ( 배호 )	https://www.youtube.com/watch?v=JaQP6WJovx4
+03	2020-02-07	11:06:52	10	고향가는날 ( 한이재 ) 트로트신곡	https://www.youtube.com/watch?v=veJWdqJUgzs
+03	2020-02-07	11:06:52	11	[스튜디오 장삐쭈] 레바 속 사정	https://www.youtube.com/watch?v=jaj2ME1eAac
+03	2020-02-07	11:06:52	12	주방 세제에 밥 말아먹는 할머니의 위험한 레시피┃Grandma’s Dangerous Recipe Using Dishwashing Liquid	https://www.youtube.com/watch?v=DtJQIbc74LQ
+03	2020-02-07	11:06:52	13	손흥민 흘리는 트래핑 PK 유도에 직접 키커까지. 또또 4경기 연속골 [토트넘vs사우스햄튼 후토크]	https://www.youtube.com/watch?v=ZJAZ9Nr7uA8
+03	2020-02-07	11:06:52	14	공피디 주피디 드디어 첫키스? 💕 [숙제를 부탁해 2탄]	https://www.youtube.com/watch?v=24fpon065kI
+03	2020-02-07	11:06:52	15	난 영화 찍는 줄 알았어ㅋㅋ ;; 오디오마저 꺼진 하하 분노 모먼트 TOP2🔥 | 무한도전⏱오분순삭	https://www.youtube.com/watch?v=602cVLcdAIs
+03	2020-02-07	11:06:52	16	【풀버전】 🔥 이찬원 - 울긴 왜 울어🔥  미스터트롯 1:1 데스매치	https://www.youtube.com/watch?v=9UzeMSzjZzc
+03	2020-02-07	11:06:52	17	미국 상위 0.1% 금수저 딸을 승무원으로 오해한 대기업 남자들..	https://www.youtube.com/watch?v=sADlMMrIKi0
+03	2020-02-07	11:06:52	18	최초 패널티킥, 손흥민의 놀라운 소신 발언	https://www.youtube.com/watch?v=BcRCRJWuUcU
+03	2020-02-07	11:06:52	19	공소장 비공개 ‘후폭풍’…한술 더 뜬 추미애? | 정치데스크	https://www.youtube.com/watch?v=5MbgQiNnFJ8
+03	2020-02-07	11:06:52	20	정말...신이 이렇게 생겼다고?	https://www.youtube.com/watch?v=97gL98qMJDk
+03	2020-02-07	11:06:52	21	부락토스의 부활 2  - 놈의 계략 [총몇명 스토리]	https://www.youtube.com/watch?v=14LDVi9YUYA
+03	2020-02-07	11:06:52	22	내 말이 곧 법이야! 사건파일111. 쌍둥이의 만행 | 되감기 공소시효 [밍꼬발랄]	https://www.youtube.com/watch?v=abQ0aaO8C-g
+03	2020-02-07	11:06:52	23	(다반뉴스) 추미애, 윤석열에 싹싹 빌었다!!! / 신의한수 20.02.06	https://www.youtube.com/watch?v=3iPwZEwq2lo
+03	2020-02-07	11:06:52	24	총체적 난국, 프렌치 불독 레오 2부｜내 강아지의 공격성 The aggression of my dog	https://www.youtube.com/watch?v=qkubn3xtAe4
+03	2020-02-07	11:06:52	25	CCTV의 나라에 온 걸 환영합니다^^ 이제부터 현빈은 손예진만 바라봐♬ #과잉보호 | 사랑의불시착 Crash Landing on You EP.11	https://www.youtube.com/watch?v=ydWOMokqEBo
+03	2020-02-07	11:06:52	26	리포지드 영상 대본 유출하신 분, 즉각 삭제 하시기 바랍니다.	https://www.youtube.com/watch?v=X3QIOmRStA8
+03	2020-02-07	11:06:52	27	[법륜스님의 즉문즉설 제 1572회] 종교를 현명하고 올바르게 믿을 수 있는지가 궁금합니다	https://www.youtube.com/watch?v=53LTunzCSgA
+03	2020-02-07	11:06:52	28	나는야 딸 바보👪 진태현❤박시은 부부 훈훈 모음ZIP. [예능맛ZIP/동상이몽2 - 너는 내 운명]	https://www.youtube.com/watch?v=fPAiuoyI6QE
+03	2020-02-07	11:06:52	29	ENG] 람보르기니 2333개월 할부로 가능하죠? - [동네놈들]	https://www.youtube.com/watch?v=j-9UfEjxQO4
+03	2020-02-07	11:06:52	30	당신의 취향에 투표하세요...!!	https://www.youtube.com/watch?v=2-poCzByu4M
+03	2020-02-07	11:06:52	31	[감동 엔딩] “드림즈에서 은퇴하겠습니까?” 남궁민, 조한선에 내미는 화합의 손 @ㅣ스토브리그(Stove League)ㅣSBS DRAMA	https://www.youtube.com/watch?v=NHjPeN5PmIY
+03	2020-02-07	11:06:52	32	추미애 난리났다! 무릎까지 꿇었지만... 尹 마중도 배웅도 안한 이유?, 정미경의 사이다 발언 영상~	https://www.youtube.com/watch?v=UOJkTVW8K14
+03	2020-02-07	11:06:52	33	육즙 터지는 소고기 스테이크 무한리필 가뿌자!! 공복에 먹다가 기절할 뻔 했습니다!!!!!!!!	https://www.youtube.com/watch?v=q-kVtLLdtP4
+03	2020-02-07	11:06:52	34	[이춘근의 국제정치 129회] ① 중국은 아시아의 진짜 병자(病者) : China is Asia’s Real Sick Man	https://www.youtube.com/watch?v=ONEztyMtrYQ
+03	2020-02-07	11:06:52	35	저때문에 유튜버한분이접었습니다	https://www.youtube.com/watch?v=3gJvLNmMohc
+03	2020-02-07	11:06:52	36	[EP.03] 여친 집에 동거 중인 10살 연하남의 '🐶같은' 만행 [연애의 참견3]	https://www.youtube.com/watch?v=XDPVsjw_7fA
+03	2020-02-07	11:06:52	37	손흥민 4경기 연속 골!! 결승골!!! FA컵 16강진출 확실한 에이스 검증된 경기인 이유! 토트넘 사우스햄튼 3:2	https://www.youtube.com/watch?v=VxLRTR_akrY
+03	2020-02-07	11:06:52	38	진중권, 추미애에 돌직구! "참 미련하다" (진성호의 융단폭격)	https://www.youtube.com/watch?v=9JLfo8P8ZyY
+03	2020-02-07	11:06:52	39	[EPISODE] Behind the Scenes of Big Hit's Group Photo!	https://www.youtube.com/watch?v=KQfnP4QqL2k
+03	2020-02-07	11:06:52	40	iKON - '뛰어들게(Dive)' M/V	https://www.youtube.com/watch?v=brP5M0o4hi8
+03	2020-02-07	11:06:52	41	[방구석토크] '라리가 최연소 멀티골' 안수 파티, 제2의 메시냐? vs 제2의 보얀일까?	https://www.youtube.com/watch?v=-Xu-tBnXTaI
+03	2020-02-07	11:06:52	42	무료앱 하나로 갤럭시에 애플 감성 넣는법? 숨겨진 꿀팁! 삼성 공식 트윅앱 굿락 2020 업데이트!	https://www.youtube.com/watch?v=JA7OLgtFu8o
+03	2020-02-07	11:06:52	43	백종원, 돈 올린다는 팥칼국숫집에 ＂뭐라고요..?!＂ [화제의 1분/백종원의 골목식당] Backstreet	https://www.youtube.com/watch?v=CZCeRQY757c
+03	2020-02-07	11:06:52	44	호돌이의 웃음참기34편 ㅣ호돌이 영상툰	https://www.youtube.com/watch?v=qnRlgWP7c4I
+03	2020-02-07	11:06:52	45	진짜 너무 상남자ㅋㅋㅋㅋㅋㅋㅋ	https://www.youtube.com/watch?v=-bdVUUIg3yY
+03	2020-02-07	11:06:52	46	[2/6]이재갑,박지원,김동석,호사카 유지,권용주│김어준의 뉴스공장	https://www.youtube.com/watch?v=2L27xYCj3J8
+03	2020-02-07	11:06:52	47	반배정 원리 TOP3 (이거 보면 반배정 잘 됨ㅋㅋ) | 입시덕후	https://www.youtube.com/watch?v=kgs0vHCmzSI
+03	2020-02-07	11:06:52	48	[2月의 무도] 연예인 아니었으면 형은 정말..😩 외모전쟁 발발! "그들만의 리그" infinite challenge	https://www.youtube.com/watch?v=cDvGLcJhTrU
+03	2020-02-07	11:06:52	49	한국축구 유망주들이 유럽대회 준우승 유스팀과 붙으면 이길 수 있을까?? l 신의 한 수 : 신태용의 방과 후 트릭 l EP.31 l 슛포러브 Shoot for love	https://www.youtube.com/watch?v=mefXLudbBXc
+03	2020-02-07	11:06:52	50	비주얼 극강) 자리에 아궁이와 솥뚜껑이?! 오겹살,항정살 대왕꼬치를 통째로 Korean mukbang eating show	https://www.youtube.com/watch?v=AG-OfFqtIoY
+03	2020-02-07	11:06:52	51	우한 폐렴은 시작에 불과 중국 7월에 대한 소름돋는 예언	https://www.youtube.com/watch?v=3lacDu29h_U
+03	2020-02-07	11:06:52	52	나는 왜 한국당에 남았나? 그 이유는? [차명진]	https://www.youtube.com/watch?v=sSzHkh0wWxk
+03	2020-02-07	11:06:52	53	이제는 애교도 부리네;; [해피엔터 2부 끝]	https://www.youtube.com/watch?v=KW12qyIgbiA
+03	2020-02-07	11:06:52	54	단단한 냉동생선을 씹었을 때 고양이 반응 ㅋㅋㅋ	https://www.youtube.com/watch?v=hJpXr7DYP6w
+03	2020-02-07	11:06:52	55	스페인과 중국의 엄청난 방해에도 한국을 택해버린 남미 근황 "스페인 텃밭잃자 당황, 중국은 다급히 재심사 요청"	https://www.youtube.com/watch?v=jPA6YDg4cbI
+03	2020-02-07	11:06:52	56	여자친구 GFRIEND - 교차로 (Crossroads) Dance Practice ver.	https://www.youtube.com/watch?v=Cluo9eJZi5I
+03	2020-02-07	11:06:52	57	미스터트롯 1:1데스매치 임영웅 일편단심 민들레야	https://www.youtube.com/watch?v=TGBRni83rwQ
+03	2020-02-07	11:06:52	58	[19/20 PL 25R] 토트넘 vs 맨시티 H/L	https://www.youtube.com/watch?v=OSRjPXJAXk0
+03	2020-02-07	11:06:52	59	※클릭하면 헤어나오지 못할 영상※ 인생 🐶같이 살고싶게 만드는 강아지 유치원 직업 리뷰 ㅣ워크맨 ep.38	https://www.youtube.com/watch?v=iUdE1xyjxhQ
+03	2020-02-07	11:06:52	60	BTS: Black Swan	https://www.youtube.com/watch?v=wSNd02kVv8o
+03	2020-02-07	11:06:52	61	BTS (방탄소년단) MAP OF THE SOUL : 7 'Outro : Ego' Comeback Trailer	https://www.youtube.com/watch?v=LmApDbvNCXg
+03	2020-02-07	11:06:52	62	발가락쌤 감옥가다 ㅋㅋㅋ(feat.범죄자 되다)	https://www.youtube.com/watch?v=w-rpMjWiBrs
+03	2020-02-07	11:06:52	63	[EP.88]알바가 얼마나 중요한지 알려드리겠습니다.(에필로그 있어요!!)	https://www.youtube.com/watch?v=UtruofRDBGU
+03	2020-02-07	11:06:52	64	엄마가 만들어준 음식 맛없을 때 유형ㅋㅋㅋㅋㅋ [밍꼬발랄]	https://www.youtube.com/watch?v=T-GMpeVbZFo
+03	2020-02-07	11:06:52	65	우한 교민들 고국에서 첫 밤...오늘 추가 수용 / YTN	https://www.youtube.com/watch?v=tX15qK7Z4Wo
+03	2020-02-07	11:06:52	66	필독) 트렌디하게 불륜남녀 조지는 법 [엑스엑스(XX)] - EP.03	https://www.youtube.com/watch?v=mvGXpHeav4c
+03	2020-02-07	11:06:52	67	50만원짜리 망치 vs 5000원짜리 망치 ㅋㅋㅋㅋ 뭐가 다를까?	https://www.youtube.com/watch?v=p4vambli2a0
+03	2020-02-07	11:06:52	68	우한 교민 유증상자 18명 발열증상…현재 상태는? / KBS뉴스(News)	https://www.youtube.com/watch?v=wrf2U1Cq_Ds
+03	2020-02-07	11:06:52	69	영탁 ‘막걸리 한잔’♭ 모두 막걸리 열풍! 일.동.원.샷 [내일은 미스터트롯] 4회 20200123	https://www.youtube.com/watch?v=npXaoOA2yS0
+03	2020-02-07	11:06:52	70	김어준의 다스뵈이다 97회 고민정, 이탄희 그리고 신종 코로나	https://www.youtube.com/watch?v=PuCTaja7dJc
+03	2020-02-07	11:06:52	71	[ENG/CHN] 🍜8-2봉 최고의 삼합! 김.보.라는 싸이언쓰~완벽의 밸론쓰~ | 라끼남 풀버전	https://www.youtube.com/watch?v=O8cxNve3sUQ
+03	2020-02-07	11:06:52	72	바이러스 감염된 줄 알고 걱정돼서 달려와준 여자친구	https://www.youtube.com/watch?v=tA25w1ZkpT0
+03	2020-02-07	11:06:52	73	손흥민 '맨시티 격파 골'을 본 무리뉴의 반응 ㄷㄷ (Ft. 베르흐베인, 요리스, 스털링)	https://www.youtube.com/watch?v=ydnyGCfsjjs
+03	2020-02-07	11:06:52	74	[#호텔델루나] 🌙 조선 만월당으로 가게 된 구찬성, 거지 마고신과의 바둑 한 판으로 장만월을 구하다ㅋㅋㅋ | #다시보는호텔델루나 | #Diggle	https://www.youtube.com/watch?v=-NPAAHOmOr8
+03	2020-02-07	11:06:52	75	[#사랑의불시착] 경주마 세리♥정혁 꽁냥질에 외면 당하는 아버님과 구승준, 그리고 시청자 의문의 1패; | Crash Landing on You | #Diggle	https://www.youtube.com/watch?v=ZM5wj0BgkDo
+03	2020-02-07	11:06:52	76	(몰카) 한 음원만 반복해서 듣는형 음원사재기 브로커로 몰아가기 ㅋㅋㅋㅋ	https://www.youtube.com/watch?v=sV1dOdfP1Yc
+03	2020-02-07	11:06:52	77	(예고 몰카) 몰래카메라를 하기전에 미리 예고를 하고 몰카를 한다면?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ	https://www.youtube.com/watch?v=6-CVafQPUHM
+03	2020-02-07	11:06:52	78	우한 전세기 8시13분 도착…330명 탑승 / 연합뉴스TV (YonhapnewsTV)	https://www.youtube.com/watch?v=mDh_dd2-W9k
+03	2020-02-07	11:06:52	79	일상에서 쓰던 물건들을 초음파세척기에 넣었더니 벌어진 일.	https://www.youtube.com/watch?v=fWXF4Ljdy_w
+03	2020-02-07	11:06:52	80	최근 미국 슈퍼볼 경기중 나온 한국기업 광고가 초대박이 난 이유, "일본기업, 거액들였지만 폭망, '한국제품 웃돈 줘도 사기힘든 지경"	https://www.youtube.com/watch?v=vQx6olbjB1c
+03	2020-02-07	11:06:52	81	秋의 미래는? , 尹의 반격에 이성윤은?!	https://www.youtube.com/watch?v=h2jO-JUd8Cc
+03	2020-02-07	11:06:52	82	가조쿠들은 한명도빠짐없이 봐줄수있겠니?	https://www.youtube.com/watch?v=848MrY5h1Ww
+03	2020-02-07	11:06:52	83	반전이 있는 극한직업 웃긴장면 모음 3부 [뭅뭅픽] 극한직업 | Extreme Job | 웃긴영화	https://www.youtube.com/watch?v=NiO7GzEDlQM
+03	2020-02-07	11:06:52	84	'VR특집 휴먼다큐멘터리 너를 만났다' 예고	https://www.youtube.com/watch?v=oglnV2P_QBI
+03	2020-02-07	11:06:52	85	요즘 국내 외 현 상황	https://www.youtube.com/watch?v=lMmWX1O2aHc
+03	2020-02-07	11:06:52	86	[법륜스님의 즉문즉설 제 1571회] 단박에 깨어나게 할 수 있는 방법을 가르쳐 주셨으면	https://www.youtube.com/watch?v=2LyOQ7sHYrE
+03	2020-02-07	11:06:52	87	[EPISODE] BTS (방탄소년단) 'Outro : Ego' Comeback Trailer Shooting	https://www.youtube.com/watch?v=_i1xNKUlGmo
+03	2020-02-07	11:06:52	88	저작권 부자 지코도 깜놀! 200곡 작곡한 8쨜 꼬마작곡가┃Even Zico Is Amazed! 8-Year-Old Child Composer With 200 Songs	https://www.youtube.com/watch?v=NntFqhT0yAQ
+03	2020-02-07	11:06:52	89	[요약] 영원한 드림즈의 19승 투수! 불사조 장진우🤘 《스토브리그 / 스브스캐치》	https://www.youtube.com/watch?v=LJ5K34BEjm8
+03	2020-02-07	11:06:52	90	EVERGLOW (에버글로우) - DUN DUN MV	https://www.youtube.com/watch?v=NoYKBAajoyo
+03	2020-02-07	11:06:52	91	(소오름) 고민녀의 재산을 '몰래' 확인한 뒤 파혼을 통보한 남친 (사이다 반전有🎉) [연애의 참견3]	https://www.youtube.com/watch?v=TVSyvJgoCAM
+03	2020-02-07	11:06:52	92	3경기 연속골! 손흥민 맨시티전 활약상 #SPORTSTIME	https://www.youtube.com/watch?v=nsSEKx8PfMI
+03	2020-02-07	11:06:52	93	정규재 신상발언 - 펜앤뉴스(02월 05일)	https://www.youtube.com/watch?v=OjqGzJDglYI
+03	2020-02-07	11:06:52	94	내부 건의도 묵살한 추미애	https://www.youtube.com/watch?v=Tp3TP6d7CGo

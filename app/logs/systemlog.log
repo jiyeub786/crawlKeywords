@@ -14776,3 +14776,13 @@
 [INFO|crawler.py:31] 2020-02-07 00:49:51,946 > ----------setKeywordHeader()----------
 [INFO|crawler.py:42] 2020-02-07 00:49:51,946 > ----------setNewsHeader()----------
 [INFO|mkHtml.py:10] 2020-02-07 00:50:21,340 > ----------getHtml()----------
+[INFO|main.py:17] 2020-02-07 11:06:52,796 > ----------main()----------
+[INFO|crawler.py:130] 2020-02-07 11:06:52,799 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:70] 2020-02-07 11:06:52,800 > ----------getDaumKeyword()----------
+[INFO|crawler.py:53] 2020-02-07 11:06:53,212 > ----------getNaverKeyword()----------
+[INFO|crawler.py:88] 2020-02-07 11:06:53,274 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:31] 2020-02-07 11:06:54,448 > ----------setKeywordHeader()----------
+[INFO|crawler.py:145] 2020-02-07 11:06:54,488 > ----------getResultNewsFile()----------
+[INFO|crawler.py:105] 2020-02-07 11:06:54,489 > ----------getDaumNews()----------
+[INFO|crawler.py:31] 2020-02-07 11:06:54,691 > ----------setKeywordHeader()----------
+[INFO|crawler.py:42] 2020-02-07 11:06:54,691 > ----------setNewsHeader()----------
