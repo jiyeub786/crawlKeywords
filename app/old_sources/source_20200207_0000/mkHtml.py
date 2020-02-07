@@ -28,12 +28,13 @@ def getKeywordHtml():
     for i, v in enumerate(datas):
 
         sets.append(v[2])
-        if v[0] in ('02-1','02-2','02-3','02-4'):
+        if v[0] == '02':
             daum.append(v)
-        if v[0] in ('01-1','01-2','01-3'):
+        if v[0] == '01':
             naver.append(v)
         if v[0] == '03':
             youtube.append(v)
+
     sets= set(sets)
     sets.remove('time')
     print(sets)
@@ -60,41 +61,10 @@ def getKeywordHtml():
         datas.append('</br>')
         datas.append('</br>')
         datas.append('</br>')
-        datas.append('<h3 id= "style_daum" ><b>※ 다음 검색 키워드</b></h3>')
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 이슈(1~10)</b></p>')
+        datas.append('<h3 id= "style_daum" ><b>※ 다음 검색순위(1~10)</b></h3>')
         for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-1':
-                datas.append('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-2':
-                datas.append('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 연예(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-3':
-                datas.append('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 스포츠(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-4':
-                datas.append('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-
-
-
-
-
-
+            if v0 == v[2] :
+                datas.append('<a id="outlink_daum" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
         datas.append('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
         datas.append('</br>')
         datas.append('</br>')
@@ -105,28 +75,10 @@ def getKeywordHtml():
         datas.append('</br>')
         datas.append('</br>')
         datas.append('</br>')
-        datas.append('<h3 id= "style_naver" ><b>※ 네이버 검색 키워드</b></h3>')
-        datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 이슈(1~20)</b></p>')
-        for i, v in enumerate(naver):
-            if v0 == v[2] and v[0] == '01-1':
-                datas.append('<a id="outlink_naver" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
-        for i, v in enumerate(naver):
-            if v0 == v[2] and v[0] == '01-2':
-                datas.append('<a id="outlink_naver" href = "%s" > 검색순위%s "%s"</a>' % (v[5], v[3], v[4]))
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('</br>')
-        datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 연예,스포츠(1~10)</b></p>')
-
+        datas.append('<h3 id= "style_naver" ><b>※ 네이버 검색순위(1~20)</b></h3>')
         #for#for
         for i, v in enumerate(naver):
-            if v0 == v[2] and v[0] == '01-3':
+            if v0 == v[2]:
                 datas.append('<a id="outlink_naver" href = "%s" > 검색순위%s "%s"</a>' %( v[5],v[3],v[4]))
         datas.append('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
         datas.append('</br>')

@@ -3,8 +3,15 @@ from module.logger import logger
 import time
 import threading
 
+globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
 schd = ['09:00', '18:00', '00:00']
 
+def setTime():
+    global globalTime
+    global globalDate
+    globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+    globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
 
 def main():
     logger.info("----------main()----------")
