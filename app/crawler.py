@@ -10,7 +10,7 @@ import time
 
 globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
-
+createTime = globalDate+'\t'+globalTime
 def setTime():
     global globalTime
     global globalDate
@@ -34,6 +34,7 @@ target_code = { 'keyword_naver1': '01-1'
                 ,'keyword_daum4' : '02-4'
                 ,'keyword_youtube' : '03'
                 ,'news_daum' : '04'
+                ,'news_naver' : '05'
                 }
 
 target_url = { "keyword_naver1" : "https://www.naver.com/srchrank?frm=main&ag=all&gr=1&ma=-2&si=0&en=0&sp=0" #naver_url1
@@ -42,6 +43,7 @@ target_url = { "keyword_naver1" : "https://www.naver.com/srchrank?frm=main&ag=al
               ,"keyword_daum2" : "https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q=" #daum_url2
               ,"keyword_youtube" : "https://www.youtube.com/feed/trending" #youtube
               ,"news_daum" : "https://media.daum.net/ranking/popular/" #daum rank news
+              ,"news_naver" : "https://news.naver.com/main/ranking/popularDay.nhn?rankingType=popular_day" #daum rank news
                }
 
 def setKeywordHeader():
@@ -84,16 +86,22 @@ def getNaverKeyword() :
 
     logger.debug("parsing Datas")
     datas =[]
+    code = ''
+    num = ''
     for i, v in enumerate(searchword_list):
+
         if i +1 <=20 and i + 1 >0 :
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_naver1'], globalDate, globalTime, str(i + 1).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_naver1'], globalDate, globalTime, str(i + 1).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_naver1']
+            num = fn.getStrNo(i + 1)
         if i +1 <=30 and i + 1 >20:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_naver2'], globalDate, globalTime, str(i + 1 - 20).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_naver2'], globalDate, globalTime, str(i + 1 - 20).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_naver2']
+            num = fn.getStrNo(i + 1 - 20)
         if i +1 <=40 and i + 1 >30:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_naver3'], globalDate, globalTime, str(i + 1 -30).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_naver3'], globalDate, globalTime, str(i + 1 -30).zfill(2), v,'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_naver3']
+            num = fn.getStrNo(i + 1 - 30)
+        data = "%s\t%s\t%s\t%s\t%s\t\n" % (code, createTime, num,v, 'https://search.naver.com/search.naver?where=nexearch&query=' + fn.getEncodeUrl(v))
+        datas.append(data)
+        logger.debug(data)
 
     logger.debug('succ pasrsing')
     return datas
@@ -117,19 +125,24 @@ def getDaumKeyword() :
 
     logger.debug("parsing Datas")
     datas =[]
+    code =''
+    num =''
     for i,v in enumerate(searchword_list):
         if i + 1 <= 10 and i + 1 > 0:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_daum1'], globalDate, globalTime, str(i + 1).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_daum1'], globalDate, globalTime, str(i + 1).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_daum1']
+            num = fn.getStrNo(i + 1)
         if i + 1 <= 20 and i + 1 > 10:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_daum2'], globalDate, globalTime, str(i + 1 -10).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_daum2'], globalDate, globalTime, str(i + 1 -10).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_daum2']
+            num = fn.getStrNo(i + 1 - 10)
         if i + 1 <= 30 and i + 1 > 20:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_daum3'], globalDate, globalTime, str(i + 1 -20).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_daum3'], globalDate, globalTime, str(i + 1 -20).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_daum3']
+            num = fn.getStrNo(i + 1 - 20)
         if i + 1 <= 40 and i + 1 > 30:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_daum4'], globalDate, globalTime, str(i + 1 -30).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_daum4'], globalDate, globalTime, str(i + 1 -30).zfill(2), v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v)))
+            code = target_code['keyword_daum4']
+            num = fn.getStrNo(i + 1 - 30)
+        data = "%s\t%s\t%s\t%s\t%s\t\n" % (  code, createTime, num,v,'https://search.daum.net/search?w=tot&q=' + fn.getEncodeUrl(v))
+        datas.append(data)
+        logger.debug(data)
 
     logger.debug('succ pasrsing')
     return datas
@@ -146,8 +159,9 @@ def getYoutubeKeyword():
     datas = []
     for i, v in enumerate(elem_list):
         if 'title' in v.attrs:
-            datas.append("%s\t%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_youtube'],globalDate,globalTime,str(i+1).zfill(2), fn.getConvData(v.attrs['title']), "https://www.youtube.com" + v.attrs['href']))
-            logger.debug("%s\t%s\t%s\t%s\t%s\t%s" % (target_code['keyword_youtube'],globalDate,globalTime,str(i+1).zfill(2), fn.getConvData(v.attrs['title']), "https://www.youtube.com" + v.attrs['href']))
+            data = "%s\t%s\t%s\t%s\t%s\n" % (target_code['keyword_youtube'],createTime,fn.getStrNo(i+1), fn.getConvData(v.attrs['title']), "https://www.youtube.com" + v.attrs['href'])
+            datas.append(data)
+            logger.debug(data)
     logger.debug('succ pasrsing')
     return datas
 
@@ -168,16 +182,56 @@ def getDaumNews():
         descs.append(v.text.strip())
     fn.aryLenSync(titles, descs)
     for i, v in enumerate(titles):
-        datas.append('%s\t%s\t%s\t%s\t%s\t%s\t%s\n' %(target_code['news_daum'], globalDate, globalTime, str(i + 1).zfill(2), fn.getConvData(titles[i].split('\t')[0]), fn.getConvData(descs[i]), titles[i].split('\t')[1]))
-        logger.debug('%s\t%s\t%s\t%s\t%s\t%s\t%s' %( target_code['news_daum'], globalDate, globalTime, str(i + 1).zfill(2), fn.getConvData(titles[i].split('\t')[0]) , fn.getConvData(descs[i]), titles[i].split('\t')[1]))
+        data = '%s\t%s\t%s\t%s\t%s\n' %(target_code['news_daum'], createTime , fn.getStrNo(i + 1), fn.getConvData(titles[i].split('\t')[0]), 'https://search.daum.net/search?w=news&nil_search=btn&DA=NTB&enc=utf8&cluster=y&cluster_page=1&q='+fn.getEncodeUrl(titles[i].split('\t')[0]))
+        datas.append(data)
+        logger.debug(data)
 
     return datas
+
+
+def getNaverNews():
+    logger.info("----------getNaverNews()----------")
+    source = requests.get(target_url['news_naver']).text
+    soup = BeautifulSoup(source, 'html.parser')
+    elem_list = soup.select(".ranking_section ol li dl a")
+
+
+    datas=[]
+    type =''
+    num = ''
+    for i ,v in enumerate(elem_list):
+        content =  v.attrs['title']
+        if i +1 <=5 :
+            type ='정치'
+            num = i + 1
+        if i + 1 <= 10 and i + 1 > 5:
+            type = '경제'
+            num = i + 1 -5
+        if i + 1 <= 15 and i + 1 > 10:
+            type = '사회'
+            num = i + 1 -10
+        if i + 1 <= 20 and i + 1 > 15:
+            type = '생활/문화'
+            num = i + 1 - 15
+        if i + 1 <= 25 and i + 1 > 20:
+            type = '세계'
+            num = i + 1 -20
+        if i + 1 <= 30 and i + 1 > 25:
+            type = 'IT/과학'
+            num = i + 1 - 25
+
+        data = '%s\t%s\t%s\t(%s)%s\t%s\n' % (target_code['news_naver'],createTime, fn.getStrNo(num), type,fn.getConvData(content),'https://search.naver.com/search.naver?where=news&sm=tab_jum&query='+fn.getEncodeUrl(content))
+        datas.append(data)
+        logger.debug(data)
+
+    return datas
+
 
 def getResultKeywordFile():
     logger.info("----------getResultKeywordFile()----------")
     setTime()
 
-    getDatas = [getDaumKeyword(), getNaverKeyword(), getYoutubeKeyword()]
+    getDatas = [getDaumKeyword(), getNaverKeyword(), getYoutubeKeyword(), getDaumNews(), getNaverNews()]
     setKeywordHeader()
 
     logger.debug("make file - file path : "+file_keyword)
@@ -192,7 +246,7 @@ def getResultNewsFile():
     logger.info("----------getResultNewsFile()----------")
 
     setTime()
-    getDatas = [getDaumNews()]
+    getDatas = [ ]
     setKeywordHeader()
     setNewsHeader()
 
@@ -204,3 +258,4 @@ def getResultNewsFile():
         f.writelines(v)
     logger.debug('succ make file')
     f.close()
+

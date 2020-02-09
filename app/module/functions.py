@@ -16,7 +16,8 @@ def aryLenSync(ary1, ary2):
                 ary1.append('@@@')
 
 
-
+def getStrNo(int):
+    return str(int).zfill(2)
 
 def getConvData(str):
     return str.replace('\n','')
