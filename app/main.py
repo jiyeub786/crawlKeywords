@@ -10,7 +10,7 @@ def main():
     logger.info("----------main()----------")
     logger.debug("start main()")
     cw.getResultKeywordFile()
-    cw.getResultNewsFile()
+   # cw.getResultNewsFile()
     logger.debug("end main()")
 
 
