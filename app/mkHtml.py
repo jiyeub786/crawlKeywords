@@ -199,7 +199,8 @@ def getKeywordHtml():
         datas.append('</br>')
         datas.append('</br>')
         datas.append('</br>')
-        return datas
+
+    return datas
 
 
 
