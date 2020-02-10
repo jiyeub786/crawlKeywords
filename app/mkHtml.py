@@ -51,14 +51,14 @@ def getKeywordHtml():
 
 
     for i0,v0 in enumerate(sets):
-        create_dt = '2020-02-03 00:00'
+        create_dt = dateN
         datas.append(v0)
         datas.append('다음, 네이버, 유튜브 검색 키워드(%s)' %(create_dt))
         datas.append('<h2 id= "style_title">%s 기준</br>검색 키워드 순위</h2>' %(create_dt))
         datas.append('</br>')
         datas.append('<p class ="outlink"><a href = "#keyword_daum" >다음 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#keyword_naver" >네이버 바로가기</a></p>')
-        datas.append('<p class ="outlink"><a href = "#kyword_youtube" >유튜브 바로가기</a></p>')
+        datas.append('<p class ="outlink"><a href = "#keyword_youtube" >유튜브 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#news_daum" >다음 뉴스 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#news_naver" >네이버 뉴스 바로가기</a></p>')
         datas.append('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
