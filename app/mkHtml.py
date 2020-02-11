@@ -146,15 +146,16 @@ def getKeywordHtml():
         datas.append('</br>')
         datas.append('</br>')
 
-        youtube_cnt =0
+
         # for i, v in enumerate(youtube):
         #     if v0 == v[2]:
         #         youtube_cnt = youtube_cnt +1
         datas.append('<h3 id= "keyword_youtube" ></h3>')
         datas.append('<h3 id= "style_youtube" ><b>※ 유튜브 인기 검색순위(1~20)</b></h3>' )
-        #for#for
+        youtube_cnt = 0
         for i00, v in enumerate(youtube):
-            if v0 == v[2] and i00 < 20 :
+            if v0 == v[2] and youtube_cnt < 20 :
+                youtube_cnt = youtube_cnt + 1
                 datas.append('<a id="outlink_youtube" href = "%s" > 검색순위 %s "%s"</a>' %( v[5],v[3],v[4]))
 
         datas.append('<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />')
