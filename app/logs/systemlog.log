@@ -15542,3 +15542,596 @@
 [INFO|crawler.py:197] 2020-02-12 00:09:52,209 > ----------getNaverNews()----------
 [INFO|crawler.py:50] 2020-02-12 00:09:52,394 > ----------setKeywordHeader()----------
 [INFO|mkHtml.py:10] 2020-02-12 00:09:56,583 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-12 08:36:44,305 > ----------main()----------
+[INFO|crawler.py:236] 2020-02-12 08:36:44,323 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:112] 2020-02-12 08:36:44,323 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-12 08:36:44,883 > ----------getNaverKeyword()----------
+[INFO|crawler.py:153] 2020-02-12 08:36:45,092 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:172] 2020-02-12 08:36:46,079 > ----------getDaumNews()----------
+[INFO|crawler.py:197] 2020-02-12 08:36:46,291 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-12 08:36:46,521 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-12 08:36:47,525 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-12 23:50:54,583 > ----------main()----------
+[INFO|crawler.py:236] 2020-02-12 23:50:54,593 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:112] 2020-02-12 23:50:54,593 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-12 23:50:54,954 > ----------getNaverKeyword()----------
+[INFO|crawler.py:153] 2020-02-12 23:50:55,152 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:172] 2020-02-12 23:50:55,926 > ----------getDaumNews()----------
+[INFO|crawler.py:197] 2020-02-12 23:50:56,147 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-12 23:50:56,307 > ----------setKeywordHeader()----------
+[INFO|main.py:10] 2020-02-12 23:54:37,916 > ----------main()----------
+[INFO|crawler.py:236] 2020-02-12 23:54:37,916 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:112] 2020-02-12 23:54:37,916 > ----------getDaumKeyword()----------
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	01	박성신	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%84%B1%EC%8B%A0	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	02	김양	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%96%91	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	03	고수정	https://search.daum.net/search?w=tot&q=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	04	설하윤	https://search.daum.net/search?w=tot&q=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	05	박현우	https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	06	박재란	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%9E%AC%EB%9E%80	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	07	최현미	https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	08	정경천	https://search.daum.net/search?w=tot&q=%EC%A0%95%EA%B2%BD%EC%B2%9C	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	09	코로나 19	https://search.daum.net/search?w=tot&q=%EC%BD%94%EB%A1%9C%EB%82%98%2019	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,193 > 02-1	2020-02-12	23:54:37	10	윤은아	https://search.daum.net/search?w=tot&q=%EC%9C%A4%EC%9D%80%EC%95%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	01	갤럭시 s20	https://search.daum.net/search?w=tot&q=%EA%B0%A4%EB%9F%AD%EC%8B%9C%20s20	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	02	신창원	https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	03	웨스터댐	https://search.daum.net/search?w=tot&q=%EC%9B%A8%EC%8A%A4%ED%84%B0%EB%8C%90	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	04	김용민	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9A%A9%EB%AF%BC	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	05	일본 크루즈	https://search.daum.net/search?w=tot&q=%EC%9D%BC%EB%B3%B8%20%ED%81%AC%EB%A3%A8%EC%A6%88	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	06	소상공인	https://search.daum.net/search?w=tot&q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	07	klm 항공	https://search.daum.net/search?w=tot&q=klm%20%ED%95%AD%EA%B3%B5	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	08	여의도	https://search.daum.net/search?w=tot&q=%EC%97%AC%EC%9D%98%EB%8F%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	09	백기완	https://search.daum.net/search?w=tot&q=%EB%B0%B1%EA%B8%B0%EC%99%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-2	2020-02-12	23:54:37	10	지소미아	https://search.daum.net/search?w=tot&q=%EC%A7%80%EC%86%8C%EB%AF%B8%EC%95%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-3	2020-02-12	23:54:37	01	이영애 유지태	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%98%81%EC%95%A0%20%EC%9C%A0%EC%A7%80%ED%83%9C	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,194 > 02-3	2020-02-12	23:54:37	02	남태현	https://search.daum.net/search?w=tot&q=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	03	도깨비	https://search.daum.net/search?w=tot&q=%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	04	차이나는 클라스	https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%9D%B4%EB%82%98%EB%8A%94%20%ED%81%B4%EB%9D%BC%EC%8A%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	05	금잔디	https://search.daum.net/search?w=tot&q=%EA%B8%88%EC%9E%94%EB%94%94	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	06	페르소나	https://search.daum.net/search?w=tot&q=%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	07	박서진	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%84%9C%EC%A7%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	08	기생충 아카데미	https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	09	이동욱 토크가하고싶어서	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%8F%99%EC%9A%B1%20%ED%86%A0%ED%81%AC%EA%B0%80%ED%95%98%EA%B3%A0%EC%8B%B6%EC%96%B4%EC%84%9C	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-3	2020-02-12	23:54:37	10	엘렌 드제네레스	https://search.daum.net/search?w=tot&q=%EC%97%98%EB%A0%8C%20%EB%93%9C%EC%A0%9C%EB%84%A4%EB%A0%88%EC%8A%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-4	2020-02-12	23:54:37	01	유남규 탁구	https://search.daum.net/search?w=tot&q=%EC%9C%A0%EB%82%A8%EA%B7%9C%20%ED%83%81%EA%B5%AC	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-4	2020-02-12	23:54:37	02	김진수	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A7%84%EC%88%98	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-4	2020-02-12	23:54:37	03	오지영	https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%A7%80%EC%98%81	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-4	2020-02-12	23:54:37	04	모라이스 감독	https://search.daum.net/search?w=tot&q=%EB%AA%A8%EB%9D%BC%EC%9D%B4%EC%8A%A4%20%EA%B0%90%EB%8F%85	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,195 > 02-4	2020-02-12	23:54:37	05	대구fc	https://search.daum.net/search?w=tot&q=%EB%8C%80%EA%B5%ACfc	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,196 > 02-4	2020-02-12	23:54:37	06	전북현대	https://search.daum.net/search?w=tot&q=%EC%A0%84%EB%B6%81%ED%98%84%EB%8C%80	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,196 > 02-4	2020-02-12	23:54:37	07	이동국	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%8F%99%EA%B5%AD	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,196 > 02-4	2020-02-12	23:54:37	08	유상철	https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%83%81%EC%B2%A0	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,196 > 02-4	2020-02-12	23:54:37	09	조규성	https://search.daum.net/search?w=tot&q=%EC%A1%B0%EA%B7%9C%EC%84%B1	
+
+[INFO|crawler.py:147] 2020-02-12 23:54:38,196 > 02-4	2020-02-12	23:54:37	10	김하성	https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%95%98%EC%84%B1	
+
+[INFO|crawler.py:70] 2020-02-12 23:54:38,196 > ----------getNaverKeyword()----------
+[INFO|crawler.py:153] 2020-02-12 23:54:38,395 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:172] 2020-02-12 23:54:39,158 > ----------getDaumNews()----------
+[INFO|crawler.py:197] 2020-02-12 23:54:39,361 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-12 23:54:39,510 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-12 23:56:05,106 > ----------getHtml()----------
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,109 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B6%95%EA%B5%AC%ED%99%A9%EC%A0%9C%20%ED%8E%A0%EB%A0%88" > 검색순위01 "축구황제 펠레"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,109 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%8C%EC%A3%BC%EC%9A%B4%EC%A0%84%20%EC%B5%9C%EC%B6%A9%EC%97%B0" > 검색순위02 "음주운전 최충연"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=2020%EC%8B%9C%EC%A6%8C%20%EC%95%84%EC%9B%83" > 검색순위03 "2020시즌 아웃"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%94%98%EB%94%98%20%EA%B5%AD%EC%A0%9C%EC%97%B0%EC%95%A0%20%EA%B3%A0%EB%B0%B1" > 검색순위04 "딘딘 국제연애 고백"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8A%AC%EB%A6%AC%ED%94%BC%20%EC%82%AC%EC%B9%AD%20%ED%94%BC%ED%95%B4%20%ED%98%B8%EC%86%8C" > 검색순위05 "슬리피 사칭 피해 호소"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B9%80%EB%82%98%ED%9D%AC%20%EA%B2%BD%EA%B3%A0" > 검색순위06 "김나희 경고"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%8A%A4%ED%83%80%20%EC%BB%A4%ED%94%8C%20%ED%83%84%EC%83%9D" > 검색순위07 "스포츠스타 커플 탄생"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%9E%AC%EC%98%81%20%EC%97%B4%EC%95%A0" > 검색순위08 "이재영 열애"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%EB%AF%BC%ED%99%98%E2%99%A5%EC%9C%A8%ED%9D%AC%20%EC%8C%8D%EB%91%A5%EC%9D%B4%20%EB%93%9D%EB%85%80" > 검색순위09 "최민환♥율희 쌍둥이 득녀"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EC%9D%B8%EB%82%98%20%EC%97%B0%EC%95%A0%20%EA%B2%BD%ED%97%98" > 검색순위10 "유인나 연애 경험"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%ED%98%9C%EC%84%A0" > 검색순위10 "신혜선"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%83%A4%EB%A1%A0%20%EC%B5%9C" > 검색순위10 "샤론 최"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=oci" > 검색순위10 "oci"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%95%88%EC%86%8C%EB%AF%B8" > 검색순위10 "안소미"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%8B%A4%EC%98%81" > 검색순위10 "이다영"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,110 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%95%84%EB%82%B4%EC%9D%98%20%EB%A7%9B" > 검색순위10 "아내의 맛"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%A7%84%EC%9A%A9" > 검색순위10 "서진용"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%86%8D%EC%8B%AC" > 검색순위10 "농심"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%B0%EA%B5%AC%EC%84%A0%EC%88%98%20%EC%9D%B4%EB%8B%A4%EC%98%81" > 검색순위10 "배구선수 이다영"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%86%8C%EC%9C%A8" > 검색순위10 "신소율"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%A9%EB%B2%95" > 검색순위10 "방법"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%A7%84%EC%A3%BC%20%EB%82%A0%EC%94%A8" > 검색순위10 "진주 날씨"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%9E%AC%EC%98%81" > 검색순위10 "이재영"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=cj%EC%9D%B4%EB%AF%B8%EA%B2%BD" > 검색순위10 "cj이미경"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=pd%EC%88%98%EC%B2%A9" > 검색순위10 "pd수첩"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A0%EC%94%A8%EC%98%88%EB%B3%B4" > 검색순위10 "날씨예보"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%81%EC%B2%AD" > 검색순위10 "기상청"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=parasite" > 검색순위10 "parasite"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,111 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EA%B8%B0%EC%98%88%EB%B3%B4" > 검색순위10 "일기예보"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%B1%EA%B8%B0%EC%99%84" > 검색순위10 "백기완"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EC%8A%B9%ED%97%8C%20%EC%A0%80%EB%85%81%20%EA%B0%99%EC%9D%B4%20%EB%93%9C%EC%8B%A4%EB%9E%98%EC%9A%94" > 검색순위01 "송승헌 저녁 같이 드실래요"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%ED%9D%91%EB%B0%B1%ED%8C%90" > 검색순위02 "기생충 흑백판"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%AA%A8%EB%85%80%20%EA%B9%80%ED%9D%A5%EC%88%98" > 검색순위03 "우아한 모녀 김흥수"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EC%86%8C%EA%B0%90" > 검색순위04 "이미경 부회장 소감"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%9D%B4%EB%AF%B8%EA%B2%BD" > 검색순위05 "기생충 이미경"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EA%B3%BD%EC%8B%A0%EC%95%A0%20%EB%8C%80%ED%91%9C" > 검색순위06 "기생충 곽신애 대표"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,112 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4%20%3A%20%EB%8D%94%20%EB%B8%94%EB%9E%99%20%ED%99%80" > 검색순위07 "유니버스 : 더 블랙 홀"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8E%9C%ED%83%80%EA%B3%A4%20Dr.%20%EB%B2%A0%EB%B2%A0" > 검색순위08 "펜타곤 Dr. 베베"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BC%80%EC%9D%B4%EC%9C%8C%20%EC%8A%A4%ED%83%80%EC%89%BD%EA%B3%BC%20%EC%9E%AC%EA%B3%84%EC%95%BD" > 검색순위09 "케이윌 스타쉽과 재계약"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%20%EB%B0%95%ED%95%B4%EC%A7%84%20%EC%A1%B0%EB%B3%B4%EC%95%84" > 검색순위10 "포레스트 박해진 조보아"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95" > 검색순위10 "고수정"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8" > 검색순위10 "최현미"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4" > 검색순위10 "설하윤"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8" > 검색순위10 "완벽한 타인"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84" > 검색순위10 "고수정 도깨비"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80" > 검색순위10 "송대관"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C" > 검색순위10 "최현미 복서"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90" > 검색순위10 "신창원"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91" > 검색순위10 "고수정 지병"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,113 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%9E%AC%EB%9E%80" > 검색순위10 "박재란"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819" > 검색순위10 "코로나19"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80" > 검색순위10 "핵소 고지"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1" > 검색순위10 "결백"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84" > 검색순위10 "남태현"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B0%80%EC%88%98%EB%B0%95%EC%84%B1%EC%8B%A0" > 검색순위10 "가수박성신"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%84%B1%EC%8B%A0" > 검색순위10 "박성신"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88" > 검색순위10 "차수빈"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81" > 검색순위10 "류수영"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%AF%B8%EC%8A%A4%ED%84%B0%ED%8A%B8%EB%A1%AF%20%EB%8B%B9%EB%8F%8C%ED%95%9C%EC%97%AC%EC%9E%90" > 검색순위10 "미스터트롯 당돌한여자"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,114 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80" > 검색순위10 "라디오스타"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EC%8A%B9%ED%97%8C%20%EC%A0%80%EB%85%81%20%EA%B0%99%EC%9D%B4%20%EB%93%9C%EC%8B%A4%EB%9E%98%EC%9A%94" > 검색순위01 "송승헌 저녁 같이 드실래요"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%ED%9D%91%EB%B0%B1%ED%8C%90" > 검색순위02 "기생충 흑백판"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%AA%A8%EB%85%80%20%EA%B9%80%ED%9D%A5%EC%88%98" > 검색순위03 "우아한 모녀 김흥수"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EC%86%8C%EA%B0%90" > 검색순위04 "이미경 부회장 소감"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%9D%B4%EB%AF%B8%EA%B2%BD" > 검색순위05 "기생충 이미경"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EA%B3%BD%EC%8B%A0%EC%95%A0%20%EB%8C%80%ED%91%9C" > 검색순위06 "기생충 곽신애 대표"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4%20%3A%20%EB%8D%94%20%EB%B8%94%EB%9E%99%20%ED%99%80" > 검색순위07 "유니버스 : 더 블랙 홀"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8E%9C%ED%83%80%EA%B3%A4%20Dr.%20%EB%B2%A0%EB%B2%A0" > 검색순위08 "펜타곤 Dr. 베베"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BC%80%EC%9D%B4%EC%9C%8C%20%EC%8A%A4%ED%83%80%EC%89%BD%EA%B3%BC%20%EC%9E%AC%EA%B3%84%EC%95%BD" > 검색순위09 "케이윌 스타쉽과 재계약"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%20%EB%B0%95%ED%95%B4%EC%A7%84%20%EC%A1%B0%EB%B3%B4%EC%95%84" > 검색순위10 "포레스트 박해진 조보아"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95" > 검색순위10 "고수정"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,115 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8" > 검색순위10 "최현미"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4" > 검색순위10 "설하윤"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8" > 검색순위10 "완벽한 타인"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80" > 검색순위10 "송대관"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84" > 검색순위10 "고수정 도깨비"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90" > 검색순위10 "신창원"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C" > 검색순위10 "최현미 복서"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91" > 검색순위10 "고수정 지병"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88" > 검색순위10 "차수빈"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80" > 검색순위10 "핵소 고지"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819" > 검색순위10 "코로나19"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1" > 검색순위10 "결백"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%9E%AC%EB%9E%80" > 검색순위10 "박재란"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84" > 검색순위10 "남태현"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,116 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0" > 검색순위10 "박현우"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,117 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81" > 검색순위10 "류수영"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,117 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%84%B1%EC%8B%A0" > 검색순위10 "박성신"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,117 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80" > 검색순위10 "라디오스타"</a>
+[INFO|mkHtml.py:138] 2020-02-12 23:56:05,117 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80" > 검색순위10 "박현우 작곡가"</a>
+[INFO|main.py:10] 2020-02-12 23:58:02,260 > ----------main()----------
+[INFO|crawler.py:236] 2020-02-12 23:58:02,261 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:112] 2020-02-12 23:58:02,261 > ----------getDaumKeyword()----------
+[INFO|crawler.py:147] 2020-02-12 23:58:02,596 > 02-1	2020-02-12	23:58:02	01	박성신	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%84%B1%EC%8B%A0	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	02	차수빈	https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%88%98%EB%B9%88	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	03	설하윤	https://search.daum.net/search?w=tot&q=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	04	송대관	https://search.daum.net/search?w=tot&q=%EC%86%A1%EB%8C%80%EA%B4%80	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	05	고수정	https://search.daum.net/search?w=tot&q=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	06	박현우	https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	07	박재란	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%9E%AC%EB%9E%80	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	08	김양	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%96%91	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	09	최현미	https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-1	2020-02-12	23:58:02	10	나예원	https://search.daum.net/search?w=tot&q=%EB%82%98%EC%98%88%EC%9B%90	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-2	2020-02-12	23:58:02	01	갤럭시 s20	https://search.daum.net/search?w=tot&q=%EA%B0%A4%EB%9F%AD%EC%8B%9C%20s20	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-2	2020-02-12	23:58:02	02	웨스터댐	https://search.daum.net/search?w=tot&q=%EC%9B%A8%EC%8A%A4%ED%84%B0%EB%8C%90	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,597 > 02-2	2020-02-12	23:58:02	03	신창원	https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	04	klm 항공	https://search.daum.net/search?w=tot&q=klm%20%ED%95%AD%EA%B3%B5	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	05	일본 크루즈	https://search.daum.net/search?w=tot&q=%EC%9D%BC%EB%B3%B8%20%ED%81%AC%EB%A3%A8%EC%A6%88	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	06	김용민	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9A%A9%EB%AF%BC	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	07	소상공인	https://search.daum.net/search?w=tot&q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	08	여의도	https://search.daum.net/search?w=tot&q=%EC%97%AC%EC%9D%98%EB%8F%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	09	백기완	https://search.daum.net/search?w=tot&q=%EB%B0%B1%EA%B8%B0%EC%99%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-2	2020-02-12	23:58:02	10	지소미아	https://search.daum.net/search?w=tot&q=%EC%A7%80%EC%86%8C%EB%AF%B8%EC%95%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-3	2020-02-12	23:58:02	01	이영애 유지태	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%98%81%EC%95%A0%20%EC%9C%A0%EC%A7%80%ED%83%9C	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-3	2020-02-12	23:58:02	02	남태현	https://search.daum.net/search?w=tot&q=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-3	2020-02-12	23:58:02	03	도깨비	https://search.daum.net/search?w=tot&q=%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-3	2020-02-12	23:58:02	04	차이나는 클라스	https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%9D%B4%EB%82%98%EB%8A%94%20%ED%81%B4%EB%9D%BC%EC%8A%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,598 > 02-3	2020-02-12	23:58:02	05	기생충 아카데미	https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-3	2020-02-12	23:58:02	06	금잔디	https://search.daum.net/search?w=tot&q=%EA%B8%88%EC%9E%94%EB%94%94	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-3	2020-02-12	23:58:02	07	페르소나	https://search.daum.net/search?w=tot&q=%ED%8E%98%EB%A5%B4%EC%86%8C%EB%82%98	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-3	2020-02-12	23:58:02	08	박서진	https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%84%9C%EC%A7%84	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-3	2020-02-12	23:58:02	09	이동욱 토크가하고싶어서	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%8F%99%EC%9A%B1%20%ED%86%A0%ED%81%AC%EA%B0%80%ED%95%98%EA%B3%A0%EC%8B%B6%EC%96%B4%EC%84%9C	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-3	2020-02-12	23:58:02	10	엘렌 드제네레스	https://search.daum.net/search?w=tot&q=%EC%97%98%EB%A0%8C%20%EB%93%9C%EC%A0%9C%EB%84%A4%EB%A0%88%EC%8A%A4	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	01	유남규 탁구	https://search.daum.net/search?w=tot&q=%EC%9C%A0%EB%82%A8%EA%B7%9C%20%ED%83%81%EA%B5%AC	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	02	김진수	https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A7%84%EC%88%98	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	03	오지영	https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%A7%80%EC%98%81	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	04	대구fc	https://search.daum.net/search?w=tot&q=%EB%8C%80%EA%B5%ACfc	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	05	조규성	https://search.daum.net/search?w=tot&q=%EC%A1%B0%EA%B7%9C%EC%84%B1	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	06	전북현대	https://search.daum.net/search?w=tot&q=%EC%A0%84%EB%B6%81%ED%98%84%EB%8C%80	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,600 > 02-4	2020-02-12	23:58:02	07	이동국	https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%8F%99%EA%B5%AD	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,601 > 02-4	2020-02-12	23:58:02	08	유상철	https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%83%81%EC%B2%A0	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,601 > 02-4	2020-02-12	23:58:02	09	모라이스 감독	https://search.daum.net/search?w=tot&q=%EB%AA%A8%EB%9D%BC%EC%9D%B4%EC%8A%A4%20%EA%B0%90%EB%8F%85	
+
+[INFO|crawler.py:147] 2020-02-12 23:58:02,601 > 02-4	2020-02-12	23:58:02	10	김하성	https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%95%98%EC%84%B1	
+
+[INFO|crawler.py:70] 2020-02-12 23:58:02,601 > ----------getNaverKeyword()----------
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	01	고수정	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	02	최현미	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	03	설하윤	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	04	완벽한 타인	https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	05	송대관	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,797 > 01-1	2020-02-12	23:58:02	06	차수빈	https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	07	고수정 도깨비	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	08	신창원	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	09	최현미 복서	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	10	고수정 지병	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	11	핵소 고지	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	12	공릉동	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%B5%EB%A6%89%EB%8F%99	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	13	코로나19	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	14	결백	https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	15	남태현	https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	16	박현우	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	17	박현우 작곡가	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	18	류수영	https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,798 > 01-1	2020-02-12	23:58:02	19	박재란	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%9E%AC%EB%9E%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-1	2020-02-12	23:58:02	20	라디오스타	https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	01	적자폭 확대	https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%81%EC%9E%90%ED%8F%AD%20%ED%99%95%EB%8C%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	02	한수원 경주시	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%9C%EC%88%98%EC%9B%90%20%EA%B2%BD%EC%A3%BC%EC%8B%9C	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	03	황교안 종로 예비후보 등록	https://search.naver.com/search.naver?where=nexearch&query=%ED%99%A9%EA%B5%90%EC%95%88%20%EC%A2%85%EB%A1%9C%20%EC%98%88%EB%B9%84%ED%9B%84%EB%B3%B4%20%EB%93%B1%EB%A1%9D	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	04	코로나 확산에	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%82%B0%EC%97%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	05	탈옥수 신창원	https://search.naver.com/search.naver?where=nexearch&query=%ED%83%88%EC%98%A5%EC%88%98%20%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	06	아시아나항공 적자폭 확대	https://search.naver.com/search.naver?where=nexearch&query=%EC%95%84%EC%8B%9C%EC%95%84%EB%82%98%ED%95%AD%EA%B3%B5%20%EC%A0%81%EC%9E%90%ED%8F%AD%20%ED%99%95%EB%8C%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	07	인권위 진정	https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EA%B6%8C%EC%9C%84%20%EC%A7%84%EC%A0%95	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	08	선거구 획정	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A0%EA%B1%B0%EA%B5%AC%20%ED%9A%8D%EC%A0%95	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	09	신종 코로나 확산	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%A2%85%20%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%82%B0	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-2	2020-02-12	23:58:02	10	코로나19 여파	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819%20%EC%97%AC%ED%8C%8C	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,799 > 01-3	2020-02-12	23:58:02	01	송승헌 저녁 같이 드실래요	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EC%8A%B9%ED%97%8C%20%EC%A0%80%EB%85%81%20%EA%B0%99%EC%9D%B4%20%EB%93%9C%EC%8B%A4%EB%9E%98%EC%9A%94	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	02	기생충 흑백판	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%ED%9D%91%EB%B0%B1%ED%8C%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	03	우아한 모녀 김흥수	https://search.naver.com/search.naver?where=nexearch&query=%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%AA%A8%EB%85%80%20%EA%B9%80%ED%9D%A5%EC%88%98	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	04	이미경 부회장 소감	https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EC%86%8C%EA%B0%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	05	기생충 이미경	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%9D%B4%EB%AF%B8%EA%B2%BD	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	06	기생충 곽신애 대표	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EA%B3%BD%EC%8B%A0%EC%95%A0%20%EB%8C%80%ED%91%9C	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	07	유니버스 : 더 블랙 홀	https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4%20%3A%20%EB%8D%94%20%EB%B8%94%EB%9E%99%20%ED%99%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	08	펜타곤 Dr. 베베	https://search.naver.com/search.naver?where=nexearch&query=%ED%8E%9C%ED%83%80%EA%B3%A4%20Dr.%20%EB%B2%A0%EB%B2%A0	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	09	케이윌 스타쉽과 재계약	https://search.naver.com/search.naver?where=nexearch&query=%EC%BC%80%EC%9D%B4%EC%9C%8C%20%EC%8A%A4%ED%83%80%EC%89%BD%EA%B3%BC%20%EC%9E%AC%EA%B3%84%EC%95%BD	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	10	포레스트 박해진 조보아	https://search.naver.com/search.naver?where=nexearch&query=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%20%EB%B0%95%ED%95%B4%EC%A7%84%20%EC%A1%B0%EB%B3%B4%EC%95%84	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	10	고수정	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	10	최현미	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	10	설하윤	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,800 > 01-3	2020-02-12	23:58:02	10	완벽한 타인	https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	송대관	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	차수빈	https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	고수정 도깨비	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	신창원	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	최현미 복서	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	고수정 지병	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	핵소 고지	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	공릉동	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%B5%EB%A6%89%EB%8F%99	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	코로나19	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	결백	https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	남태현	https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	박현우	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	박현우 작곡가	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,801 > 01-3	2020-02-12	23:58:02	10	류수영	https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,802 > 01-3	2020-02-12	23:58:02	10	박재란	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%9E%AC%EB%9E%80	
+
+[INFO|crawler.py:105] 2020-02-12 23:58:02,802 > 01-3	2020-02-12	23:58:02	10	라디오스타	https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80	
+
+[INFO|crawler.py:153] 2020-02-12 23:58:02,802 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:172] 2020-02-12 23:58:03,600 > ----------getDaumNews()----------
+[INFO|crawler.py:197] 2020-02-12 23:58:03,842 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-12 23:58:03,992 > ----------setKeywordHeader()----------
+[INFO|main.py:10] 2020-02-13 00:00:05,020 > ----------main()----------
+[INFO|crawler.py:238] 2020-02-13 00:00:05,020 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:114] 2020-02-13 00:00:05,020 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-13 00:00:05,326 > ----------getNaverKeyword()----------
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	01	고수정	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	02	설하윤	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	03	최현미	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	04	차수빈	https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	05	송대관	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,503 > 01-1	2020-02-13	00:00:05	06	완벽한 타인	https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	07	고수정 도깨비	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	08	신창원	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	09	고수정 지병	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	10	핵소 고지	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	11	최현미 복서	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	12	코로나19	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	13	결백	https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	14	남태현	https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	15	박현우	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	16	한끼줍쇼	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%9C%EB%81%BC%EC%A4%8D%EC%87%BC	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	17	박현우 작곡가	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	18	류수영	https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,504 > 01-1	2020-02-13	00:00:05	19	라디오스타	https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-1	2020-02-13	00:00:05	20	박성신	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%84%B1%EC%8B%A0	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	01	적자폭 확대	https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%81%EC%9E%90%ED%8F%AD%20%ED%99%95%EB%8C%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	02	한수원 경주시	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%9C%EC%88%98%EC%9B%90%20%EA%B2%BD%EC%A3%BC%EC%8B%9C	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	03	황교안 종로 예비후보 등록	https://search.naver.com/search.naver?where=nexearch&query=%ED%99%A9%EA%B5%90%EC%95%88%20%EC%A2%85%EB%A1%9C%20%EC%98%88%EB%B9%84%ED%9B%84%EB%B3%B4%20%EB%93%B1%EB%A1%9D	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	04	코로나 확산에	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%82%B0%EC%97%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	05	탈옥수 신창원	https://search.naver.com/search.naver?where=nexearch&query=%ED%83%88%EC%98%A5%EC%88%98%20%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	06	아시아나항공 적자폭 확대	https://search.naver.com/search.naver?where=nexearch&query=%EC%95%84%EC%8B%9C%EC%95%84%EB%82%98%ED%95%AD%EA%B3%B5%20%EC%A0%81%EC%9E%90%ED%8F%AD%20%ED%99%95%EB%8C%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	07	인권위 진정	https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EA%B6%8C%EC%9C%84%20%EC%A7%84%EC%A0%95	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	08	선거구 획정	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A0%EA%B1%B0%EA%B5%AC%20%ED%9A%8D%EC%A0%95	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	09	신종 코로나 확산	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%A2%85%20%EC%BD%94%EB%A1%9C%EB%82%98%20%ED%99%95%EC%82%B0	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-2	2020-02-13	00:00:05	10	코로나19 여파	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819%20%EC%97%AC%ED%8C%8C	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,505 > 01-3	2020-02-13	00:00:05	01	송승헌 저녁 같이 드실래요	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EC%8A%B9%ED%97%8C%20%EC%A0%80%EB%85%81%20%EA%B0%99%EC%9D%B4%20%EB%93%9C%EC%8B%A4%EB%9E%98%EC%9A%94	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	02	기생충 흑백판	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%ED%9D%91%EB%B0%B1%ED%8C%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	03	우아한 모녀 김흥수	https://search.naver.com/search.naver?where=nexearch&query=%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%AA%A8%EB%85%80%20%EA%B9%80%ED%9D%A5%EC%88%98	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	04	이미경 부회장 소감	https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EC%86%8C%EA%B0%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	05	기생충 이미경	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%9D%B4%EB%AF%B8%EA%B2%BD	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	06	기생충 곽신애 대표	https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EA%B3%BD%EC%8B%A0%EC%95%A0%20%EB%8C%80%ED%91%9C	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	07	유니버스 : 더 블랙 홀	https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4%20%3A%20%EB%8D%94%20%EB%B8%94%EB%9E%99%20%ED%99%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	08	펜타곤 Dr. 베베	https://search.naver.com/search.naver?where=nexearch&query=%ED%8E%9C%ED%83%80%EA%B3%A4%20Dr.%20%EB%B2%A0%EB%B2%A0	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	09	케이윌 스타쉽과 재계약	https://search.naver.com/search.naver?where=nexearch&query=%EC%BC%80%EC%9D%B4%EC%9C%8C%20%EC%8A%A4%ED%83%80%EC%89%BD%EA%B3%BC%20%EC%9E%AC%EA%B3%84%EC%95%BD	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	10	포레스트 박해진 조보아	https://search.naver.com/search.naver?where=nexearch&query=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%20%EB%B0%95%ED%95%B4%EC%A7%84%20%EC%A1%B0%EB%B3%B4%EC%95%84	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	10	고수정	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	10	설하윤	https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,506 > 01-3	2020-02-13	00:00:05	10	최현미	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	차수빈	https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	송대관	https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	완벽한 타인	https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	고수정 도깨비	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	신창원	https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	고수정 지병	https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	핵소 고지	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	최현미 복서	https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	코로나19	https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	결백	https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	남태현	https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	박현우	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	한끼줍쇼	https://search.naver.com/search.naver?where=nexearch&query=%ED%95%9C%EB%81%BC%EC%A4%8D%EC%87%BC	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,507 > 01-3	2020-02-13	00:00:05	10	박현우 작곡가	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,508 > 01-3	2020-02-13	00:00:05	10	류수영	https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,508 > 01-3	2020-02-13	00:00:05	10	라디오스타	https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80	
+
+[INFO|crawler.py:107] 2020-02-13 00:00:05,508 > 01-3	2020-02-13	00:00:05	10	박성신	https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%84%B1%EC%8B%A0	
+
+[INFO|crawler.py:155] 2020-02-13 00:00:05,508 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:174] 2020-02-13 00:00:06,247 > ----------getDaumNews()----------
+[INFO|crawler.py:199] 2020-02-13 00:00:06,501 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-13 00:00:06,654 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:00:13,261 > ----------getHtml()----------
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EC%8A%B9%ED%97%8C%20%EC%A0%80%EB%85%81%20%EA%B0%99%EC%9D%B4%20%EB%93%9C%EC%8B%A4%EB%9E%98%EC%9A%94" > 검색순위01 "송승헌 저녁 같이 드실래요"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%ED%9D%91%EB%B0%B1%ED%8C%90" > 검색순위02 "기생충 흑백판"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%AA%A8%EB%85%80%20%EA%B9%80%ED%9D%A5%EC%88%98" > 검색순위03 "우아한 모녀 김흥수"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EC%86%8C%EA%B0%90" > 검색순위04 "이미경 부회장 소감"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EC%9D%B4%EB%AF%B8%EA%B2%BD" > 검색순위05 "기생충 이미경"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B8%B0%EC%83%9D%EC%B6%A9%20%EA%B3%BD%EC%8B%A0%EC%95%A0%20%EB%8C%80%ED%91%9C" > 검색순위06 "기생충 곽신애 대표"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4%20%3A%20%EB%8D%94%20%EB%B8%94%EB%9E%99%20%ED%99%80" > 검색순위07 "유니버스 : 더 블랙 홀"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8E%9C%ED%83%80%EA%B3%A4%20Dr.%20%EB%B2%A0%EB%B2%A0" > 검색순위08 "펜타곤 Dr. 베베"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,262 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BC%80%EC%9D%B4%EC%9C%8C%20%EC%8A%A4%ED%83%80%EC%89%BD%EA%B3%BC%20%EC%9E%AC%EA%B3%84%EC%95%BD" > 검색순위09 "케이윌 스타쉽과 재계약"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%20%EB%B0%95%ED%95%B4%EC%A7%84%20%EC%A1%B0%EB%B3%B4%EC%95%84" > 검색순위10 "포레스트 박해진 조보아"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95" > 검색순위10 "고수정"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%A4%ED%95%98%EC%9C%A4" > 검색순위10 "설하윤"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8" > 검색순위10 "최현미"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B0%A8%EC%88%98%EB%B9%88" > 검색순위10 "차수빈"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%86%A1%EB%8C%80%EA%B4%80" > 검색순위10 "송대관"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%99%84%EB%B2%BD%ED%95%9C%20%ED%83%80%EC%9D%B8" > 검색순위10 "완벽한 타인"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,263 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EB%8F%84%EA%B9%A8%EB%B9%84" > 검색순위10 "고수정 도깨비"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%8B%A0%EC%B0%BD%EC%9B%90" > 검색순위10 "신창원"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B3%A0%EC%88%98%EC%A0%95%20%EC%A7%80%EB%B3%91" > 검색순위10 "고수정 지병"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%95%B5%EC%86%8C%20%EA%B3%A0%EC%A7%80" > 검색순위10 "핵소 고지"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%B5%9C%ED%98%84%EB%AF%B8%20%EB%B3%B5%EC%84%9C" > 검색순위10 "최현미 복서"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819" > 검색순위10 "코로나19"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%B0%EB%B0%B1" > 검색순위10 "결백"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%82%A8%ED%83%9C%ED%98%84" > 검색순위10 "남태현"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0" > 검색순위10 "박현우"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%ED%95%9C%EB%81%BC%EC%A4%8D%EC%87%BC" > 검색순위10 "한끼줍쇼"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%ED%98%84%EC%9A%B0%20%EC%9E%91%EA%B3%A1%EA%B0%80" > 검색순위10 "박현우 작곡가"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%88%98%EC%98%81" > 검색순위10 "류수영"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80" > 검색순위10 "라디오스타"</a>
+[INFO|mkHtml.py:138] 2020-02-13 00:00:13,264 > <a id="outlink_naver" href = "https://search.naver.com/search.naver?where=nexearch&query=%EB%B0%95%EC%84%B1%EC%8B%A0" > 검색순위10 "박성신"</a>
+[INFO|mkHtml.py:10] 2020-02-13 00:00:24,298 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-13 00:03:27,263 > ----------main()----------
+[INFO|crawler.py:239] 2020-02-13 00:03:27,264 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:115] 2020-02-13 00:03:27,264 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-13 00:03:27,568 > ----------getNaverKeyword()----------
+[INFO|crawler.py:156] 2020-02-13 00:03:27,763 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:175] 2020-02-13 00:03:28,536 > ----------getDaumNews()----------
+[INFO|crawler.py:200] 2020-02-13 00:03:28,746 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-13 00:03:28,901 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:03:40,637 > ----------getHtml()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:03:55,653 > ----------getHtml()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:05:39,161 > ----------getHtml()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:05:53,581 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-13 00:06:00,144 > ----------main()----------
+[INFO|crawler.py:239] 2020-02-13 00:06:00,145 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:115] 2020-02-13 00:06:00,145 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-13 00:06:00,410 > ----------getNaverKeyword()----------
+[INFO|crawler.py:156] 2020-02-13 00:06:00,600 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:175] 2020-02-13 00:06:01,422 > ----------getDaumNews()----------
+[INFO|crawler.py:200] 2020-02-13 00:06:01,632 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-13 00:06:01,774 > ----------setKeywordHeader()----------
+[INFO|main.py:10] 2020-02-13 00:06:02,901 > ----------main()----------
+[INFO|crawler.py:239] 2020-02-13 00:06:02,902 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:115] 2020-02-13 00:06:02,902 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-13 00:06:03,198 > ----------getNaverKeyword()----------
+[INFO|crawler.py:156] 2020-02-13 00:06:03,386 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:175] 2020-02-13 00:06:04,150 > ----------getDaumNews()----------
+[INFO|crawler.py:200] 2020-02-13 00:06:04,354 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-13 00:06:04,484 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-13 00:06:05,614 > ----------getHtml()----------

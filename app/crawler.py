@@ -91,6 +91,7 @@ def getNaverKeyword() :
     url = 'https://search.naver.com/search.naver?where=nexearch&query='
     for i, v in enumerate(searchword_list):
 
+
         if i +1 <=20 and i + 1 >0 :
             code = target_code['keyword_naver1']
             num = fn.getStrNo(i + 1)
@@ -100,9 +101,11 @@ def getNaverKeyword() :
         if i +1 <=40 and i + 1 >30:
             code = target_code['keyword_naver3']
             num = fn.getStrNo(i + 1 - 30)
-        data = "%s\t%s\t%s\t%s\t%s\t\n" % (code, createTime, num,v, url+ fn.getEncodeUrl(v))
-        datas.append(data)
-        logger.debug(data)
+
+        data = "%s\t%s\t%s\t%s\t%s\t\n" % (code, createTime, num, v, url + fn.getEncodeUrl(v))
+        if i +1 <= 40:
+            datas.append(data)
+            logger.debug(data)
 
     logger.debug('succ pasrsing')
     return datas
