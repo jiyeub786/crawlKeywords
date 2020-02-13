@@ -16135,3 +16135,13 @@
 [INFO|crawler.py:200] 2020-02-13 00:06:04,354 > ----------getNaverNews()----------
 [INFO|crawler.py:50] 2020-02-13 00:06:04,484 > ----------setKeywordHeader()----------
 [INFO|mkHtml.py:10] 2020-02-13 00:06:05,614 > ----------getHtml()----------
+[INFO|main.py:10] 2020-02-14 00:00:03,501 > ----------main()----------
+[INFO|crawler.py:239] 2020-02-14 00:00:03,510 > ----------getResultKeywordFile()----------
+[INFO|crawler.py:115] 2020-02-14 00:00:03,510 > ----------getDaumKeyword()----------
+[INFO|crawler.py:70] 2020-02-14 00:00:03,951 > ----------getNaverKeyword()----------
+[INFO|crawler.py:156] 2020-02-14 00:00:04,161 > ----------getYoutubeKeyword()----------
+[INFO|crawler.py:175] 2020-02-14 00:00:04,920 > ----------getDaumNews()----------
+[INFO|crawler.py:200] 2020-02-14 00:00:05,238 > ----------getNaverNews()----------
+[INFO|crawler.py:50] 2020-02-14 00:00:05,454 > ----------setKeywordHeader()----------
+[INFO|mkHtml.py:10] 2020-02-14 00:00:09,983 > ----------getHtml()----------
+[INFO|mkHtml.py:10] 2020-02-14 00:05:06,448 > ----------getHtml()----------
