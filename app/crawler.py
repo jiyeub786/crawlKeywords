@@ -11,6 +11,7 @@ import time
 globalDate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 globalTime = time.strftime('%H:%M:%S', time.localtime(time.time()))
 createTime = globalDate+'\t'+globalTime
+
 def setTime():
     global globalTime
     global globalDate

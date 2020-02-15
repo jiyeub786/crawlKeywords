@@ -5,6 +5,7 @@ from module.logger import logger
 import time
 
 dateN = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+hourN = time.strftime('%H:%M:%S', time.localtime(time.time()))
 
 goToTop = '<p class ="outlink"><a href = "#style_title" >맨 위로</a></p>'
 tagBr1 = '</br></br>'
@@ -12,7 +13,9 @@ tagBr ='</br></br></br></br></br>'
 AdScript = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7985475884167551" data-ad-slot="3329701659"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>'
 LineStyle ='<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />'
 
-def getKeywordHtml():
+
+
+def getHtmlSource():
     logger.info("----------getHtml()----------")
     daum = []
     News_daum = []
@@ -20,7 +23,6 @@ def getKeywordHtml():
     News_naver = []
     youtube = []
     datas = []
-
 
 
     file_keyword = cw.base_dir + "result_" +dateN + ".txt"
@@ -57,11 +59,23 @@ def getKeywordHtml():
     datas = []
 
 
+
+    if   hourN >= '08:00' and hourN <= '10:00':
+        hourV=' 09:00'
+    elif hourN >= '17:00' and timeN <= '19:00':
+        hourV=' 18:00'
+    elif hourN >= '23:00' or hourN <= '01:00':
+        hourV=' 00:00'
+    else :
+        hourV=' 00:00'
+
     for i0,v0 in enumerate(sets):
-        create_dt = dateN + ' 00:00'
-        datas.append(v0)
-        datas.append('주요 포털 검색 키워드(%s)' %(create_dt))
-        datas.append('<h2 id= "style_title">%s 기준</br>검색 키워드 순위</h2>' %(create_dt))
+        createDT = dateN + hourV
+        datas.append('======================================')
+        datas.append('==============='+v0+'===============')
+        datas.append('======================================')
+        datas.append('주요 포털 검색 키워드(%s)' %(createDT))
+        datas.append('<h2 id= "style_title">%s 기준</br>검색 키워드 순위</h2>' %(createDT))
         datas.append('</br>')
         datas.append('<p class ="outlink"><a href = "#keyword_daum" >다음 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#keyword_naver" >네이버 바로가기</a></p>')
@@ -77,22 +91,22 @@ def getKeywordHtml():
         datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 이슈(1~10)</b></p>')
         for i, v in enumerate(daum):
             if v0 == v[2] and v[0] == '02-1':
-                datas.append('<a id="outlink_daum" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(tagBr)
         datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
         for i, v in enumerate(daum):
             if v0 == v[2] and v[0] == '02-2':
-                datas.append('<a id="outlink_daum" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(tagBr)
         datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 연예(1~10)</b></p>')
         for i, v in enumerate(daum):
             if v0 == v[2] and v[0] == '02-3':
-                datas.append('<a id="outlink_daum" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(tagBr)
         datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 스포츠(1~10)</b></p>')
         for i, v in enumerate(daum):
             if v0 == v[2] and v[0] == '02-4':
-                datas.append('<a id="outlink_daum" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
@@ -103,19 +117,19 @@ def getKeywordHtml():
         datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 이슈(1~20)</b></p>')
         for i, v in enumerate(naver):
             if v0 == v[2] and v[0] == '01-1':
-                datas.append('<a id="outlink_naver" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_naver" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(tagBr)
         datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
         for i, v in enumerate(naver):
             if v0 == v[2] and v[0] == '01-2':
-                datas.append('<a id="outlink_naver" href = "%s" >랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+                datas.append('<a id="outlink_naver" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
         datas.append(tagBr)
         datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 연예,스포츠(1~10)</b></p>')
 
         #for#for
         for i, v in enumerate(naver):
             if v0 == v[2] and v[0] == '01-3':
-                datas.append('<a id="outlink_naver" href = "%s" >랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
+                datas.append('<a id="outlink_naver" href = "%s" target="_sub">랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
@@ -132,7 +146,7 @@ def getKeywordHtml():
         for i00, v in enumerate(youtube):
             if v0 == v[2] and youtube_cnt < 20 :
                 youtube_cnt = youtube_cnt + 1
-                datas.append('<a id="outlink_youtube" href = "%s" >랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
+                datas.append('<a id="outlink_youtube" href = "%s" target="_sub">랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
                 if (youtube_cnt % 5) == 0 :
                     datas.append(tagBr1)
         datas.append(LineStyle)
@@ -148,7 +162,7 @@ def getKeywordHtml():
         for i, v in enumerate(News_daum):
             if v0 == v[2] and news_daum_cnt <20:
                 news_daum_cnt = news_daum_cnt + 1
-                datas.append('<a id="outlink_daum" href = "%s" >랭킹%s"%s"</a>' % (v[5],v[3], v[4]))
+                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5],v[3], v[4]))
                 if (news_daum_cnt % 5) == 0 :
                     datas.append(tagBr1)
         datas.append(LineStyle)
@@ -162,7 +176,7 @@ def getKeywordHtml():
         #for#for
         for i, v in enumerate(News_naver):
             if v0 == v[2] :
-                datas.append('<a id="outlink_naver" href = "%s" >랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
+                datas.append('<a id="outlink_naver" href = "%s" target="_sub">랭킹%s"%s"</a>' %( v[5],v[3],v[4]))
                 if v[3] == '05':
                     datas.append(tagBr1)
 
@@ -177,5 +191,5 @@ def getKeywordHtml():
 
 
 
-for i,v in enumerate(getKeywordHtml()):
+for i,v in enumerate(getHtmlSource()):
     print(v)
