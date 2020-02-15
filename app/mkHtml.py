@@ -62,7 +62,7 @@ def getHtmlSource():
 
     if   hourN >= '08:00' and hourN <= '10:00':
         hourV=' 09:00'
-    elif hourN >= '17:00' and timeN <= '19:00':
+    elif hourN >= '17:00' and hourN <= '19:00':
         hourV=' 18:00'
     elif hourN >= '23:00' or hourN <= '01:00':
         hourV=' 00:00'
