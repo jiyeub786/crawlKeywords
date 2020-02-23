@@ -11,6 +11,12 @@ goToTop = '<p class ="outlink"><a href = "#style_title" >맨 위로</a></p>'
 tagBr1 = '</br></br>'
 tagBr ='</br></br></br></br></br>'
 AdScript = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7985475884167551" data-ad-slot="3329701659"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>'
+coupangAd1 ='<a href="https://coupa.ng/bqE1w6" target="_blank"><img src="https://ads-partners.coupang.com/banners/155064?subId=&traceId=V0-301-50c6c2b97fba9aee-I155064&w=320&h=100" alt=""></a>'
+coupangAd2 ='<script src="https://ads-partners.coupang.com/g.js"></script><script>	new PartnersCoupang.G({ id:155040, subId: "jiyeub786" });</script>'
+coupangAd3 ='<script src="https://ads-partners.coupang.com/g.js"></script><script>	new PartnersCoupang.G({ id:155041, subId: "jiyeub786" });</script>'
+
+
+
 LineStyle ='<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style5" />'
 
 
@@ -110,7 +116,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
-        datas.append(AdScript)
+        datas.append(coupangAd1)
         datas.append(tagBr)
         datas.append('<h3 id= "keyword_naver" ></h3>')
         datas.append('<h3 id= "style_naver" ><b>※ 네이버 검색 키워드</b></h3>')
@@ -133,7 +139,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
-        datas.append(AdScript)
+        datas.append(coupangAd2)
         datas.append(tagBr)
 
 
@@ -168,7 +174,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append('<p class ="outlink"><a href = "#style_title" >맨 위로</a></p>')
         datas.append(tagBr)
-        datas.append(AdScript)
+        datas.append(coupangAd3)
         datas.append(tagBr)
         datas.append('<h3 id= "news_naver" ></h3>')
         datas.append('<h3 id= "style_naver" ><b>※ 네이버 랭킹뉴스 목록</b></h3>')

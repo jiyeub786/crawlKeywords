@@ -1,4 +1,4 @@
-
+import pandas as pd
 from module import functions  as fn
 import requests
 from bs4 import BeautifulSoup
@@ -95,9 +95,10 @@ def getNaverNews():
     source = requests.get('https://news.naver.com/main/ranking/popularDay.nhn?rankingType=popular_day').text
     soup = BeautifulSoup(source, 'html.parser')
     elem_list = soup.select(".ranking_section ol li dl a")
-
+    info = pd.DataFrame(columns=['num','type','content','url'])
     type =''
     num = ''
+    datas = []
     for i ,v in enumerate(elem_list):
         content =  v.attrs['title']
         if i +1 <=5 :
@@ -118,10 +119,31 @@ def getNaverNews():
         if i + 1 <= 30 and i + 1 > 25:
             type = 'IT/과학'
             num = i + 1 - 25
-        data = '%s\t(%s)%s\t%s' % ( fn.getStrNo(num), type,fn.getConvData(content),'https://search.naver.com/search.naver?where=news&sm=tab_jum&query='+fn.getEncodeUrl(content))
-        print(data)
 
-#        print(str(i+1).zfill(2)+'\t'+type+'\t'+content+'\t'+'https://search.naver.com/search.naver?where=news&sm=tab_jum&query='+fn.getEncodeUrl(content))
+        #data = '%s\t(%s)%s\t%s' % ( fn.getStrNo(num), type,fn.getConvData(content),'https://search.naver.com/search.naver?where=news&sm=tab_jum&query='+fn.getEncodeUrl(content))
+        #atas.append((data))
+        info = info.append({'num': fn.getStrNo(num)
+                            , 'type' :  type
+                            , 'content':fn.getConvData(content)
+                            ,'url': 'https://search.naver.com/search.naver?where=news&sm=tab_jum&query=' + fn.getEncodeUrl(content)
+                            } ,ignore_index=True)
+
+    #info['num'] = datas
+
+    print(info)
+        #print(data)
+
+
+def Movie():
+    logger.info("----------getDaumNews()----------")
+    source = requests.get('http://www.cgv.co.kr/theaters/?areacode=01&theaterCode=0056&date=20200216').text
+    soup = BeautifulSoup(source, 'html.parser')
+    elem_list = soup.select("div.sect-city ")
+    print(source)
+    print(elem_list)
+
+
 
 #ttt3()
 getNaverNews()
+#Movie()
