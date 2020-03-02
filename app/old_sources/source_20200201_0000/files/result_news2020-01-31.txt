@@ -1,1 +1,0 @@
-target	date	time	rank	title	contents	urls
