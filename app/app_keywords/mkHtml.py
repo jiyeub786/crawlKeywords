@@ -1,6 +1,6 @@
 import sys
 import os
-import htmlcrawl as cw
+import crawler as cw
 import time
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from common.logger import logger
@@ -117,7 +117,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
-        datas.append(coupangAd1)
+        datas.append(AdScript)
         datas.append(tagBr)
         datas.append('<h3 id= "keyword_naver" ></h3>')
         datas.append('<h3 id= "style_naver" ><b>※ 네이버 검색 키워드</b></h3>')
@@ -140,7 +140,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
-        datas.append(coupangAd2)
+        datas.append(AdScript)
         datas.append(tagBr)
 
 
@@ -175,7 +175,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append('<p class ="outlink"><a href = "#style_title" >맨 위로</a></p>')
         datas.append(tagBr)
-        datas.append(coupangAd3)
+        datas.append(AdScript)
         datas.append(tagBr)
         datas.append('<h3 id= "news_naver" ></h3>')
         datas.append('<h3 id= "style_naver" ><b>※ 네이버 랭킹뉴스 목록</b></h3>')

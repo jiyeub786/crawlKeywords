@@ -4,7 +4,7 @@ import sys
 import time
 import threading
 
-import htmlcrawl as cw
+import crawler as cw
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from common.logger import logger
 schd = ['09:00', '18:00', '00:00']
