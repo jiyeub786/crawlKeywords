@@ -190,6 +190,7 @@ def getHtmlSource():
         datas.append(LineStyle)
         datas.append(goToTop)
         datas.append(tagBr)
+        datas.append(AdScript)
 
     return datas
 

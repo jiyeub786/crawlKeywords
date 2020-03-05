@@ -3,24 +3,41 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+
+side_menu = [ { "MENU_NM" : "keyword", "MENU_URL" :"/keyword"}
+            , {"MENU_NM" :"news","MENU_URL": "/news"}
+            , {"MENU_NM" :"cupang", "MENU_URL":"/cupang"} ]
+
+
+
 @app.route('/')
 def index():
     return render_template(
-                'index.html',
-                title     = 'Flask Template Test',
-                home_str  = 'Hello Flask!',
-                home_list = [1, 2, 3, 4, 5]
+                '/index.html'
+                 ,side_meus = side_menu
             )
 
+@app.route('/news')
+def news():
+    return render_template(
+                '/section_main.html'
+                 ,section = "news"
+            )
 
-@app.route('/info')
-def info():
-    return render_template('info.html'
-                           ,list = [1,2,3,4,5]
+@app.route('/cupang')
+def cupang():
+    return render_template(
+                '/section_main.html'
+                 ,section = "cupang"
+            )
 
+@app.route('/keyword')
+def keyword():
+    return render_template(
+                '/section_main.html'
+                 ,section = "keyword"
+            )
 
-
-                           )
 
 
 

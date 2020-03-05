@@ -1,27 +1,68 @@
-body{ margin :0;
+::moz-selection {
+    color: #fff;
+    background-color: #5EAEC4;
+}
+::selection {
+    color: #fff;
+    background-color: #5EAEC4;
 }
 
-#header-area { position : relative;
+body{ margin :0;
+}
+a {
+    color: #232F3E;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {background-color : #F5F5F5;
+}
+
+
+#header { position : relative;
                width : 1200px ;
                height :100px ;
 			   border : solid 2px red;
 			   margin : 0 auto;
 			   }
 
-#contents-area {position : relative;
+#contents {position : relative;
                 width: 1200px;
                 height : 700px;
 				border :solid 2px green;
 				margin : 0 auto;
 				}
-#aside-area {   float : left;
+#contents_side {   float : left;
                 width : 15%;
 				height : 100%;
 				border :solid 2px green;
 
 				}
 
-#section-area { float : left;
+
+#contents_side .side_menu{       padding-bottom: 5px;
+                               margin-bottom: 10px;
+                               border-radius: 2px;
+                               overflow: hidden;
+                               background-color: #fff;
+
+				}
+
+#contents_side a{    display: flex;
+                                 align-items: center;
+                                 width: 100%;
+
+}
+#contents_side a.side_menu_list{  width : 100%;
+                               height: 30px;
+                               color: #222;
+                               padding: 4px 10px 5px;
+
+				}
+
+
+
+#section { float : left;
                 width : 83% ;
 				height : 100%;
 				border :solid 2px red;
@@ -29,9 +70,34 @@ body{ margin :0;
 				}
 
 
-#footer-area { position : relative;
+#footer { position : relative;
                width : 1200px ;
                height : 100px;
 			   border : solid 2px blue;
 			   margin : 0 auto;
 			  }
+
+
+#footer { position : relative;
+               width : 1200px ;
+               height : 100px;
+			   border : solid 2px blue;
+			   margin : 0 auto;
+			  }
+
+.icon-board, .icon-number, .icon-somoimNew, .icon-bullet {
+    font-family: "Roboto","Noto Sans KR",나눔고딕,"Nanum Gothic",Malgun Gothic,맑은고딕,굴림,돋움,Dotum,sans-serif;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 12px;
+    min-width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0 5px 0 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 2px;
+    background-color: #F1F1F1;
