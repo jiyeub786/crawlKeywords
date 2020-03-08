@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -29,27 +29,27 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/app_web/templates/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/app_web/source" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\python_project\crawlKeywords\app\app_web" />
+      <recent name="E:\python\python_project\crawlKeywords\app\app_web\source" />
       <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates" />
       <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates\service" />
       <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates\menu" />
-      <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates\common" />
-      <recent name="E:\python\python_project\crawlKeywords\app\app_cupang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\python_project\crawlKeywords\app\app_web\source" />
+      <recent name="E:\python\python_project\crawlKeywords\app\app_web" />
+      <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates" />
       <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates\service" />
       <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates\common" />
-      <recent name="E:\python\python_project\crawlKeywords\app\app_web\templates" />
-      <recent name="E:\python\python_project\crawlKeywords\app\app_keywords" />
-      <recent name="E:\python\python_project\crawlKeywords\app\app_cupang" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.htmlcrawl">
+    <configuration name="crawler (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawlKeywords" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,32 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web/source/app_keywords" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawlKeywords" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_keywords" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_keywords/crawler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/source/app_keywords/crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,11 +78,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_cupang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web/source/app_cupang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_cupang/htmlcrawl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/source/app_cupang/htmlcrawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawlKeywords" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web/source/app_cupang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/source/app_cupang/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_keywords" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web/source/app_keywords" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_keywords/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/source/app_keywords/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_keywords" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/app_web/source/app_keywords" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_keywords/mkHtml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app_web/source/app_keywords/mkHtml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,18 +156,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.crawler (1)" />
       <item itemvalue="Python.mkHtml" />
+      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.htmlcrawl" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.crawler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.mkHtml" />
-        <item itemvalue="Python.crawler" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.htmlcrawl" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.mkHtml" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.crawler (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -212,44 +212,44 @@
     </state>
     <state x="-1475" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583158002876" />
     <state x="445" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1582034149750" />
-    <state x="708" y="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583152400854">
+    <state x="708" y="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583542715267">
       <screen x="82" y="0" width="1838" height="1200" />
     </state>
-    <state x="708" y="405" key="#com.intellij.fileTypes.FileTypeChooser/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583152400854" />
+    <state x="708" y="405" key="#com.intellij.fileTypes.FileTypeChooser/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583542715267" />
     <state x="771" y="327" key="FileChooserDialogImpl" timestamp="1583149205901">
       <screen x="82" y="0" width="1838" height="1200" />
     </state>
     <state x="-1149" y="294" key="FileChooserDialogImpl/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1580225030311" />
     <state x="771" y="327" key="FileChooserDialogImpl/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583149205901" />
-    <state width="1838" height="313" key="GridCell.Tab.0.bottom" timestamp="1583430481534">
+    <state width="1838" height="283" key="GridCell.Tab.0.bottom" timestamp="1583675536516">
       <screen x="-1838" y="0" width="1838" height="1080" />
     </state>
-    <state width="1838" height="313" key="GridCell.Tab.0.bottom/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583430481534" />
-    <state width="1818" height="313" key="GridCell.Tab.0.bottom/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583421995208" />
+    <state width="1838" height="283" key="GridCell.Tab.0.bottom/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583675536516" />
+    <state width="1818" height="235" key="GridCell.Tab.0.bottom/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583670411540" />
     <state width="1246" height="313" key="GridCell.Tab.0.bottom/82.0.1266.1008@82.0.1266.1008" timestamp="1581757424520" />
     <state width="1818" height="923" key="GridCell.Tab.0.bottom/82.0.1838.1080@82.0.1838.1080" timestamp="1582804747866" />
     <state width="498" height="405" key="GridCell.Tab.0.bottom/82.0.518.1064@82.0.518.1064" timestamp="1582798066021" />
-    <state width="1838" height="313" key="GridCell.Tab.0.center" timestamp="1583430481533">
+    <state width="1838" height="283" key="GridCell.Tab.0.center" timestamp="1583675536516">
       <screen x="-1838" y="0" width="1838" height="1080" />
     </state>
-    <state width="1838" height="313" key="GridCell.Tab.0.center/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583430481533" />
-    <state width="1818" height="313" key="GridCell.Tab.0.center/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583421995208" />
+    <state width="1838" height="283" key="GridCell.Tab.0.center/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583675536516" />
+    <state width="1818" height="235" key="GridCell.Tab.0.center/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583670411539" />
     <state width="1246" height="313" key="GridCell.Tab.0.center/82.0.1266.1008@82.0.1266.1008" timestamp="1581757424520" />
     <state width="1818" height="923" key="GridCell.Tab.0.center/82.0.1838.1080@82.0.1838.1080" timestamp="1582804747866" />
     <state width="498" height="405" key="GridCell.Tab.0.center/82.0.518.1064@82.0.518.1064" timestamp="1582798066021" />
-    <state width="1838" height="313" key="GridCell.Tab.0.left" timestamp="1583430481533">
+    <state width="1838" height="283" key="GridCell.Tab.0.left" timestamp="1583675536516">
       <screen x="-1838" y="0" width="1838" height="1080" />
     </state>
-    <state width="1838" height="313" key="GridCell.Tab.0.left/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583430481533" />
-    <state width="1818" height="313" key="GridCell.Tab.0.left/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583421995208" />
+    <state width="1838" height="283" key="GridCell.Tab.0.left/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583675536516" />
+    <state width="1818" height="235" key="GridCell.Tab.0.left/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583670411539" />
     <state width="1246" height="313" key="GridCell.Tab.0.left/82.0.1266.1008@82.0.1266.1008" timestamp="1581757424520" />
     <state width="1818" height="923" key="GridCell.Tab.0.left/82.0.1838.1080@82.0.1838.1080" timestamp="1582804747866" />
     <state width="498" height="405" key="GridCell.Tab.0.left/82.0.518.1064@82.0.518.1064" timestamp="1582798066021" />
-    <state width="1838" height="313" key="GridCell.Tab.0.right" timestamp="1583430481533">
+    <state width="1838" height="283" key="GridCell.Tab.0.right" timestamp="1583675536516">
       <screen x="-1838" y="0" width="1838" height="1080" />
     </state>
-    <state width="1838" height="313" key="GridCell.Tab.0.right/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583430481533" />
-    <state width="1818" height="313" key="GridCell.Tab.0.right/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583421995208" />
+    <state width="1838" height="283" key="GridCell.Tab.0.right/-1838.0.1838.1080/82.0.1838.1200@-1838.0.1838.1080" timestamp="1583675536516" />
+    <state width="1818" height="235" key="GridCell.Tab.0.right/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583670411539" />
     <state width="1246" height="313" key="GridCell.Tab.0.right/82.0.1266.1008@82.0.1266.1008" timestamp="1581757424520" />
     <state width="1818" height="923" key="GridCell.Tab.0.right/82.0.1838.1080@82.0.1838.1080" timestamp="1582804747866" />
     <state width="498" height="405" key="GridCell.Tab.0.right/82.0.518.1064@82.0.518.1064" timestamp="1582798066021" />
@@ -286,5 +286,15 @@
       <screen x="82" y="0" width="1838" height="1200" />
     </state>
     <state x="664" y="265" width="672" height="678" key="search.everywhere.popup/-1838.0.1838.1080/82.0.1838.1200@82.0.1838.1200" timestamp="1583333093311" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/app_web/app.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+ {% include './common/common_head.html'   %}
+</head>
+<body>
+    <!-- header area -->
+
+ {% block header %}{% endblock %}
+
+	<!-- contents area -->
+	<div id="contents">
+			<!-- aside area -->
+            {% block contents_side %}{% endblock %}
+
+			<!-- section area -->
+	        {% if section == 'cupang' %}
+                {% block cupang  %}{% endblock %}
+
+            {% elif section == 'keyword' %}
+                {% block keyword %}{% endblock %}
+
+            {% elif section == 'keyword_list' %}
+                {% block keyword_list %}{% endblock %}
+
+            {% elif section == 'keyword_list_detail' %}
+                {% block keyword_list_detail %}{% endblock %}
+
+
+            {% elif section == 'news' %}
+                {% block news %}{% endblock %}
+            {% endif %}
+
+	</div>
+	<!-- footer area -->
+    {% block footer %}{% endblock %}
+
+</body>
+</html>

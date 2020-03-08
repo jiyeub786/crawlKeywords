@@ -36,7 +36,6 @@ a:hover {background-color : #F5F5F5;
                 width : 15%;
 				height : 100%;
 				border :solid 2px green;
-
 				}
 
 
@@ -45,7 +44,6 @@ a:hover {background-color : #F5F5F5;
                                border-radius: 2px;
                                overflow: hidden;
                                background-color: #fff;
-
 				}
 
 #contents_side a{    display: flex;
@@ -57,7 +55,6 @@ a:hover {background-color : #F5F5F5;
                                height: 30px;
                                color: #222;
                                padding: 4px 10px 5px;
-
 				}
 
 
@@ -66,7 +63,46 @@ a:hover {background-color : #F5F5F5;
                 width : 83% ;
 				height : 100%;
 				border :solid 2px red;
-				background : yellow;
+				overflow : scroll;
+				padding : 5px 5px 5px 5px ;
+				}
+
+
+#section .section_list_row {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+				}
+
+#section .section_list_rownum {  			float:left;
+	                                        width: 5%;
+	                                        text-align : center;
+				}
+
+#section .section_list_title {  			float:left;
+	                                        width: 60%;
+                                            border-left: 1px solid #E2E2E2;
+                                            padding-left: 5px;
+				}
+
+#section .section_list_date {  				float:left;
+                                            width: 10%;
+                                            border-left: 1px solid #E2E2E2;
+                                            text-align : center;
+				}
+
+#section .section_list_time {  				float:left;
+                                            width: 10%;
+                                            border-left: 1px solid #E2E2E2;
+                                            text-align : center;
 				}
 
 
