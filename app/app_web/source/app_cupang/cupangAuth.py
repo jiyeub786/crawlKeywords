@@ -11,6 +11,8 @@ from urllib.parse import urlencode
 
 __author__ = "Jaejin Jang<jaejin_me@naver.com>"
 
+from bs4 import BeautifulSoup
+
 
 class cupangMgr:
     DOMAIN = "https://api-gateway.coupang.com"
@@ -38,6 +40,64 @@ class cupangMgr:
         productdata = data['productData']
 
         return productdata
+
+    def getProductDescription(productId):
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
+        # source1 = requests.get(target_url['keyword_cpn'],headers=headers).text
+        # source2 = requests.get(target_url['keyword_cpn2'],headers=headers).text
+        source3 = requests.get("https://www.coupang.com/vp/products/" + productId
+
+                               , headers=headers).text
+        # source1 = requests.get("https://www.naver.com").text
+        # soup1 = BeautifulSoup(source1, 'html.parser')
+        # soup2 = BeautifulSoup(source2, 'html.parser')
+        soup3 = BeautifulSoup(source3, 'html.parser')
+
+        print(soup3)
+
+        # print(source1)
+        # print(source2)
+        # print(soup3)
+        # elem_list1 = soup1.select(".subType-IMAGE")
+        # elem_list_good = soup2.select(".sdp-review__highlight__positive__article__content")
+        # elem_list_bad = soup2.select(".sdp-review__highlight__critical__article__content")
+        elem_list_review = soup3.select(".prod-description ul li")
+
+        for i, v in enumerate(elem_list_review):
+            print(v.get_text())
+        datas = []
+        return datas
+
+    def getProductReview(productId):
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
+        # source1 = requests.get(target_url['keyword_cpn'],headers=headers).text
+        # source2 = requests.get(target_url['keyword_cpn2'],headers=headers).text
+        source3 = requests.get(
+            "https://www.coupang.com/vp/product/reviews?productId=" + productId + "&size=20&sortBy=ORDER_SCORE_ASC"
+
+            , headers=headers).text
+        # source1 = requests.get("https://www.naver.com").text
+        # soup1 = BeautifulSoup(source1, 'html.parser')
+        # soup2 = BeautifulSoup(source2, 'html.parser')
+        soup3 = BeautifulSoup(source3, 'html.parser')
+
+        # print(source1)
+        # print(source2)
+        # print(soup3)
+        # elem_list1 = soup1.select(".subType-IMAGE")
+        # elem_list_good = soup2.select(".sdp-review__highlight__positive__article__content")
+        # elem_list_bad = soup2.select(".sdp-review__highlight__critical__article__content")
+        elem_list_review = soup3.select(".sdp-review__article__list__review__content")
+
+        datas = []
+        for i, v in enumerate(elem_list_review):
+            datas.append({"productId": str(productId), "review": str(v.get_text()).strip()})
+
+        return datas
+
+
 
 
 if __name__ == '__main__':

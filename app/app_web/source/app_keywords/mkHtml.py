@@ -85,7 +85,7 @@ def getHtmlSource():
         datas.append('주요 포털 검색 키워드(%s)' %(createDT))
         datas.append('<h2 id= "style_title">%s 기준</br>검색 키워드 순위</h2>' %(createDT))
         datas.append('</br>')
-        datas.append('<p class ="outlink"><a href = "#keyword_daum" >다음 바로가기</a></p>')
+        #datas.append('<p class ="outlink"><a href = "#keyword_daum" >다음 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#keyword_naver" >네이버 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#keyword_youtube" >유튜브 바로가기</a></p>')
         datas.append('<p class ="outlink"><a href = "#news_daum" >다음 뉴스 바로가기</a></p>')
@@ -94,32 +94,32 @@ def getHtmlSource():
         datas.append(tagBr)
         datas.append(AdScript)
         datas.append(tagBr)
-        datas.append('<h3 id= "keyword_daum" ></h3>')
-        datas.append('<h3 id= "style_daum" ><b>※ 다음 검색 키워드</b></h3>')
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 이슈(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-1':
-                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
-        datas.append(tagBr)
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-2':
-                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
-        datas.append(tagBr)
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 연예(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-3':
-                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
-        datas.append(tagBr)
-        datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 스포츠(1~10)</b></p>')
-        for i, v in enumerate(daum):
-            if v0 == v[2] and v[0] == '02-4':
-                datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
-        datas.append(LineStyle)
-        datas.append(goToTop)
-        datas.append(tagBr)
-        datas.append(AdScript)
-        datas.append(tagBr)
+        # datas.append('<h3 id= "keyword_daum" ></h3>')
+        # datas.append('<h3 id= "style_daum" ><b>※ 다음 검색 키워드</b></h3>')
+        # datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 이슈(1~10)</b></p>')
+        # for i, v in enumerate(daum):
+        #     if v0 == v[2] and v[0] == '02-1':
+        #         datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+        # datas.append(tagBr)
+        # datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 뉴스(1~10)</b></p>')
+        # for i, v in enumerate(daum):
+        #     if v0 == v[2] and v[0] == '02-2':
+        #         datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+        # datas.append(tagBr)
+        # datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 연예(1~10)</b></p>')
+        # for i, v in enumerate(daum):
+        #     if v0 == v[2] and v[0] == '02-3':
+        #         datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+        # datas.append(tagBr)
+        # datas.append('<p id= "style_daum" data-ke-size="size14"><b> @ 실시간 스포츠(1~10)</b></p>')
+        # for i, v in enumerate(daum):
+        #     if v0 == v[2] and v[0] == '02-4':
+        #         datas.append('<a id="outlink_daum" href = "%s" target="_sub">랭킹%s"%s"</a>' % (v[5], v[3], v[4]))
+        # datas.append(LineStyle)
+        # datas.append(goToTop)
+        # datas.append(tagBr)
+        # datas.append(AdScript)
+        # datas.append(tagBr)
         datas.append('<h3 id= "keyword_naver" ></h3>')
         datas.append('<h3 id= "style_naver" ><b>※ 네이버 검색 키워드</b></h3>')
         datas.append('<p id= "style_naver" data-ke-size="size14"><b> @ 실시간 이슈(1~20)</b></p>')
